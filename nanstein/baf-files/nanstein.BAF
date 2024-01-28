@@ -1,0 +1,9 @@
+IF 
+   AttackedBy([ANYONE],DEFAULT)
+THEN
+    RESPONSE #100
+    DisplayString(Myself,@0 /* ~Necios, me obligais a luchar~ */)
+    ReallyForceSpell(LastAttackerOf(Myself),CUTSCENE_POWERWORD_KILL)
+END
+    
+

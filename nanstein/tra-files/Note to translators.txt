@@ -1,0 +1,18 @@
+All the files where the texts were extracted from are located in the directories "baf-files" and "D-files". Look for a file with extension ".D" first, usually the ".BAF" file with the same root name do not have any text in them. Then check the ".BAF" files for the remaining ".TRA" files (those for which no ".D" file exists).
+The "setup.TRA" file corresponds to the "TP2" file.
+
+All the original texts were left under the form of comments (usually surrounded by /* */) in the ".D" and ".BAF" files whose names are identical to the ".TRA" files.
+
+List of files
+- nanstein.tra : text from the "nanstein.BAF" script (before using a death spell againt the attacker)
+- setup.tra : contains all texts from the TP2 file, mostly item descriptions
+- nanstein_d.tra : texts from the "nanstein_d.D" dialog (item "upgrade" dialog)
+
+Due to the files modified when the mod is installed, I assume that nanstein has a few exchanges with Jan, Aerie and Minsc.
+
+I gathered these information while converting the mod to use TRA files. You'll need to contact the author on Clan DLAN for more.
+
+Isaya
+
+Contact: use private message on the Spellhold Studios forum (http://www.shsforums.net/index.php?)
+or write to: isaya_ie@hotmail.com

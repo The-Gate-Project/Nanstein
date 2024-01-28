@@ -1,0 +1,8 @@
+IF
+  Global("Nanstein","ar0334",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Nanstein","ar0334",1)
+    CreateCreature("Nanstein",[566.314],3)  // Mhoram
+END
+
