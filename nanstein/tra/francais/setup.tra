@@ -1,0 +1,371 @@
+@9001 = ~[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@0 = ~Nanstein, Ingenieur mage en chef de la montagne Sansimportance~
+@1 = ~Nanstein~
+@2 = ~Carsomyr +4~
+@3 = ~Nanstein a reforgé la Vengeresse Sacrée Carsomyr pour la transformer en une épée courte, comme vous le lui avez demandé. Le processus a coûté à Carsomyr une partie de son pouvoir qui a disparu lors de la transformation. Même ainsi, il en résulte une arme terrible bien qu'anonyme, qui ne vaudra rien à la vente.
+
+PARAMETRES :
+
+Capacités spéciales :
+ 50% de résistance magique
+ Dissipation de la magie 3 fois par jour
+
+Capacités de combat :
+ +5 points de dégâts contre les chaotiques mauvais, en plus des bonus supplémentaires
+ Dissipation de la magie quand il frappe un adversaire
+
+TAC0 : +4
+Dégâts : 1D10 +4
+Type de dégâts : perforant
+Poids : 2
+Facteur de vitesse : 0
+Type de compétence : épée courte
+
+Utilisable par :
+ Personnages non mauvais
+ Voleur (mono ou multiclassé)
+ Rôdeur (mono ou multiclassé)~
+
+@4 = ~Crom Frayer +4~
+@5 = ~Nanstein, sur votre demande, a reforgé le légendaire marteau Crom Faeyr, le transformant en une masse. Il a peut-être perdu une partie de son pouvoir, mais il continue d'être une arme terrible même si son origine inconnue rend nulle sa valeur monétaire.
+
+PARAMETRES :
+
+Capacités spéciales :
+ Confère 22 en force
+ Tue les golems de pierre et d'argile, les Ettins et les Trolls en un coup
+
+TAC0 : +4
+Dégâts : 2D4 +3
+Type de dégâts : contondant
+Poids : 8
+Facteur de vitesse : 1
+Type de compétence : masse
+
+Utilisable par :
+ Clerc (monoclassé, biclassé ou multiclassé)~
+
+@6 = ~Ceinturon de neutralité active~
+@7 = ~Nanstein a transformé l'épée l'Egaliseur en ceinturon, paradoxalement la seule chose qu'il a perdu est sa valeur marchande.
+
+PARAMETRES :
+
+Contre les chaotiques neutres et les loyaux neutres : +1 à l'attaque et +1 aux dégâts
+Contre les neutres bons et les neutres mauvais : +2 à l'attaque et +2 aux dégâts
+Contre les autres alignements, exceptés les neutres stricts : +3 à l'attaque et +6 aux dégâts
+Immunité contre la domination et la confusion
+
+Utilisable par : 
+ Tous~
+
+@8 = ~Robe d'écailles de dragon rouge~
+@9   = ~Grâce à ses aptitudes magiques, Nanstein a transformé votre armure d'écailles de dragon rouge en robe de mage, les écailles entremêlées confèrent une importante classe d'armure mais sont très légères, et dans le même temps immunisent contre le feu.
+
+PARAMETRES :
+
+Classe d'armure : 0
+100% de résistance au feu
+
+Utilisable par :
+ Mage (monoclassé, biclassé ou multiclassé)~
+
+@10   = ~Carquois de flèches élémentaires~
+@11   = ~Nanstein est enthousiaste, et à raison, car il a fait du bon travail avec le Fléau de l'Eternité. En tant que puissant manipulateur des éléments, il a pu le transformer en un carquois qui produit des flèches élémentaires aussi puissantes (et même sous certains aspects un peu plus) que le Fléau de l'Eternité.
+
+PARAMETRES :
+
+Flèches élémentaires illimitées (dégâts : 1d6 +1 de feu, +1 d'acide, +1 de froid, elles sont considérées comme des armes +5)
+
+Utilisable par :
+ Tous~
+
+@12   = ~Cape de Vecna~
+@13   = ~A votre demande Nanstein a transformé en quelques coups de ciseaux et avec quelques tours de magie connus de lui seul la Robe de Vecna en une cape utile à tous.
+
+PARAMETRES :
+
+Capacités d'équipement :
+Temps d'incantation réduit de 3
++10 % de résistance magique
+Poids : 3
+
+Utilisable par :
+ Tous~
+
+@14  = ~Hache +4 : Vague~
+@15  = ~Ça semblait facile, mais qui d'autre que Nanstein aurait pu mieux le faire ? La hallebarde Vague est devenue une hache, sans rien perdre de son pouvoir.
+
+PARAMÈTRES :
+
+Capacités de combat : 15 % de chances de drainer l'eau du corps de la cible (15 points de dégâts)
+                      Tue en un coup les Élémentaires de feu, les Effrits et les Salamandres (pas de Jet de sauvegarde)
+TAC0 : +4
+Dégâts : 1D10+4
+Type de dégâts : Tranchant
+Poids : 4
+Facteur de vitesse : 3
+Type de compétence : Hache
+Type : Arme à 1 main
+Force nécessaire : 10
+
+Poids : 4
+Inutilisable par :
+ Druides
+ Clercs
+ Mages
+ Voleurs~
+
+@16  = ~Arbalète fulgurante +3 : Courroux céleste~
+@17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
+
+PARAMETRES
+
+Capacités spéciale
+Tire automatiquement des carreaux électrique +1
+1 attaque supplémentaire par round
+
+Capacités de combat : 
+Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
+Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
+
+TAC0 : +4 (+3 de l'arbalète, +1 des carreaux)
+Dégâts : 1D8+1, +1 électrique
+Poids : 4
+Facteur de Vitesse : 2
+Compétence : Arbalète
+Type d'arme : à 2 mains
+Force nécessaire : 8
+Inutilisable par :
+ Druides
+ Clercs
+ Mages~
+
+@18  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
+
+PARAMETRES
+
+Capacités spéciale
+Tire automatiquement des carreaux électrique +3
+1 attaque supplémentaire par round
+
+Capacités de combat : 
+Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
+Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
+
+TAC0 : +6 (+3 de l'arbalète, +3 des carreaux)
+Dégâts : 1D8+3, +1 électrique
+Poids : 4
+Facteur de Vitesse : 1
+Compétence : Arbalète
+Type d'arme : à 2 mains
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Clerc
+ Mage~
+
+@19  = ~Dague d'argent~
+@20  = ~La puissante et maléfique Épée d'argent est devenue entre les mains expertes de Nanstein une dague boomerang presque aussi dangereuse.
+
+Capacités de combat :
+si elle est lancée, la dague revient à son lanceur
+15% de chance de tuer la cible, jet de sauvegarde contre la mort à -2
+
+TAC0 : +3
+Dégâts : 1D8 +3
+Type de dégât : projectile (perforant)
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3
+Inutilisable par :
+ Clerc~
+
+@21  = ~Gants de chair humaine~
+@22  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
+
+PARAMETRES
+
+Capacité d'équipement :
+Classe d'Armure : 6
+Jets de sauvegarde : +3
+Résistance à la magie : +15 %
+
+Inutilisable par :
+ Personnage bon~
+
+@23  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine améliorée retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
+
+PARAMETRES
+
+Capacité d'équipement :
+Classe d'Armure : 3
+Jets de sauvegarde : +3
+Résistance à la magie : +15 %
+Constitution : bonus de 1
+Dextérité : bonus de 1
+Immunité au Poison
+Protection contre le Bien
+
+Inutilisable par :
+ Personnage bon~
+
+@24  = ~Targe du Baldurien~
+@25  = ~Nanstein a transformé l'imposant bouclier du Baldurien en une targe si légère que même les mages peuvent s'en servir. Le bouclier y a perdu son effet néfaste et un peu de puissance, mais il a gardé son principal intérêt : les spectateur n'ont qu'à bien se tenir !
+
+PARAMETRES :
+
+Capacités d'équipement :
+Renvoi des rayons de spectateur
+
+Bonus de Classe d'Armure : 3
+Spécial : ne protège pas contre les attaques de type Missiles ou Perforantes.
+Poids : 1~
+
+@26  = ~Protectrice de Easthaven~
+@27  = ~Entre les mains expertes de Nanstein, le Protecteur de Easthaven est devenu un pendentif. Son poids est devenu minime mais son pouvoir défensif est resté le même.
+
+PARAMETRES :
+
++1 CA
++20 % résistance aux dégâts physiques~
+
+@28  = ~Katana violet +3~
+@29  = ~Le ninja-To de la Confrérie Écarlate à gagné en poids et en puissance depuis que Nanstein l'ingénieur en à fait un katana. De fait, son ego n'est plus autant sélectif.
+
+Capacité d'équipement : une attaque supplémentaire par round
+Combat : 6 PV de dégâts du poison par round pendant 2 rounds, si la cible rate son JS contre le poison
+
+PARAMETRES :
+
+TAC0 : +3
+Dégâts : 1D10+3
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 1
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+
+Utilisable par :
+ Guerriers
+ Voleurs
+ Moines~
+
+@30  = ~Dague de Karash~
+@31  = ~Nanstein s'est encore une fois surpassé : non seulement il a transformé le Katana Zerth de Dak'kon en une lame plus utile à un mage, mais en plus il a réveillé le pouvoir du karash.
+ 
+PARAMETRES :
+
+Capacités d'équipement :
+Double les sort de niveau 1
+mémorisation d'un sort supplémentaire des niveaux 2, 3 et 4
+Bonus à la CA +2
+Jet de sauvegarde contre les sorts +3
+Résistance à a magie : +10%
+
+Dégâts : 1D8 + 2
+TAC0 : +2
+Poids : 1
+Facteur de vitesse : 0
+Type de compétence : Dague
+Type: arme à 1 main
+Force nécessaire : 3
+Non utilisable par :
+Clerc~
+ 
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "

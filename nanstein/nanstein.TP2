@@ -6,7 +6,7 @@ AUTHOR ~mhoram@clandlan.net~
 // There are several changes to use new features of WeiDU
 
 // Version displayed in the WeiDU.log
-VERSION ~V1.3~
+VERSION ~V2~
 
 /////////////////// REPLACEMENT FOR README DISPLAY ////////////////////////////
 // The readme can be displayed at the beginning of installation (WeiDU will ask).
@@ -14,15 +14,32 @@ VERSION ~V1.3~
 
 README ~nanstein/readme_%LANGUAGE%.txt~
 
+ALWAYS
+	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+		ACTION_DEFINE_ARRAY xo_reload BEGIN
+		~setup.tra~
+		END
+		ACTION_DEFINE_ARRAY xo_noconvert BEGIN END
+			LAF HANDLE_CHARSETS
+			INT_VAR
+			infer_charset = 1
+			STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/tra~
+			noconvert_array = xo_noconvert
+			reload_array = xo_reload
+		END
+	END
+END
+
 
 //////////////////////// INSERTED FOR TRANSLATION SUPPORT /////////////////////
 
 // AUTO_TRA tells WeiDU to use by default the TRA file having the same name as
-// dialog or script being compiled in the nanstein/tra-files/<language> directory,
+// dialog or script being compiled in the nanstein/tra/<language> directory,
 // where <language> is the name of the language selected by the user (second word
 // in the LANGUAGE definition below).
 // This removes the need to use COMPILE-USING directive for each COMPILE action.
-AUTO_TRA ~nanstein/tra-files/%s~
+AUTO_TRA ~nanstein/tra/%s~
 
 ///////////////////////////////////////////////////////////////////////
 // Language Options
@@ -34,17 +51,17 @@ AUTO_TRA ~nanstein/tra-files/%s~
 // immediately (e.g., because they contain the translated names of the
 // modules the user will install, such as in the setup).
 ///////////////////////////////////////////////////////////////////////
-LANGUAGE ~Castellano~
+LANGUAGE ~Castellano (Actualitza nomes en frances)~
          ~castellano~
-         ~nanstein/tra-files/castellano/setup.tra~
+         ~nanstein/tra/castellano/setup.tra~
 
 LANGUAGE ~Francais (traduction d'Althea, des d'Oghmatiques)~
          ~francais~
-         ~nanstein/tra-files/francais/setup.tra~
+         ~nanstein/tra/francais/setup.tra~
 
-LANGUAGE ~English~
-	 ~english~
-	 ~nanstein/tra-files/english/setup.tra~
+LANGUAGE ~English (update only in french)~
+         ~english~
+         ~nanstein/tra/english/setup.tra~
 
 //////////////////////// END OF TRANSLATION SUPPORT /////////////////////
 
@@ -54,16 +71,17 @@ BEGIN @0 /* ~Nanstein, Ingeniero Magico en Jefe del Monte Noimporta~ */
 //////////////////////// MODIFIED FOR TRANSLATION SUPPORT /////////////////////
 // nanstein.d was renamed as nanstein_d.d to avoid conflicts in the names of the TRA files.
 ///////////////////////////////////////////////////////////////////////////////
-COMPILE ~nanstein\d-files\nanstein_d.d~
-COMPILE ~nanstein\baf-files\nanstein.baf~
-COPY ~nanstein\cre-files\nanstein.cre~ ~override\nanstein.cre~ //Nanstein
+INCLUDE ~nanstein/baf/GW_BGEE.tpa~
+COMPILE ~nanstein/d/nanstein_d.d~
+COMPILE ~nanstein/baf/nanstein.baf~
+COPY ~nanstein/cre/nanstein.cre~ ~override~ //Nanstein
 SAY NAME1 @1 /* ~Nanstein~ */
 SAY NAME2 @1 /* ~Nanstein~ */
 
-COPY ~nanstein\itm-files\mho_car1.itm~ ~override\mho_car1.itm~ //Carsomyr como espada corta +4
+COPY ~nanstein/itm/mho_car1.itm~ ~override~ //Carsomyr como espada corta +4
 SAY NAME1 @2 /* ~Carsomyr +4~ */
 SAY NAME2 @2 /* ~Carsomyr +4~ */
-SAY DESC  @3 /* ~Nanstein ha reformado a la Vengadora Sagrada Carsomyr para convertirla en Espada Corta tal y como le pediste. El proceso ha sido costoso y parte del poder de Carsomyr ha desaparecido gastado en la transformación. Aún así el resultado es un arma temible aunque anonima que no valdrá nada en el mercado.
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@3" END /* ~Nanstein ha reformado a la Vengadora Sagrada Carsomyr para convertirla en Espada Corta tal y como le pediste. El proceso ha sido costoso y parte del poder de Carsomyr ha desaparecido gastado en la transformación. Aún así el resultado es un arma temible aunque anonima que no valdrá nada en el mercado.
 
 ESTADISTÍCAS:
 
@@ -86,10 +104,10 @@ Personajes no malvados
 Ladron (simple o multiclase)
 Explorador (simple o multiclase)~ */
 
-COPY ~nanstein\itm-files\mho_cro1.itm~~override\mho_cro1.itm~ //Crom Frayer como maza +4
+COPY ~nanstein/itm/mho_cro1.itm~ ~override~ //Crom Frayer como maza +4
 SAY NAME1 @4 /* ~Crom Frayer +4~ */
 SAY NAME2 @4 /* ~Crom Frayer +4~ */
-SAY DESC @5 /* ~Nanstein ha reformado por petición tuya el legendario martillo Crom Frayer convirtiendolo en una maza. Quizás haya perdido parte de su poder, pero sigue siendo un terrible arma aunque su origen desconocido anula su valor monetario.
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@5" END /* ~Nanstein ha reformado por petición tuya el legendario martillo Crom Frayer convirtiendolo en una maza. Quizás haya perdido parte de su poder, pero sigue siendo un terrible arma aunque su origen desconocido anula su valor monetario.
 
 ESTADISTICAS: 
 
@@ -106,10 +124,10 @@ Talento Marcial: Maza
 Permitido a: 
 Clérigo (simple, dual o multiclase)~ */
 
-COPY ~nanstein\itm-files\mho_eql1.itm~ ~override\mho_eql1.itm~  //Igualadora como Fajin
+COPY ~nanstein/itm/mho_eql1.itm~ ~override~  //Igualadora como Fajin
 SAY NAME1 @6 /* ~Fajin de Neutralidad activa~ */
 SAY NAME2 @6 /* ~Fajin de Neutralidad activa~ */
-SAY DESC @7 /* ~Nanstein ha transformado la Igualadora de espada en cinturon, paradojicamente casí lo único que ha perdido es su precio.
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@7" END /* ~Nanstein ha transformado la Igualadora de espada en cinturon, paradojicamente casí lo único que ha perdido es su precio.
 
 ESTADISTICAS:
 
@@ -121,10 +139,10 @@ Inmunidad a hechizar y confusión.
 Permitido a:
 Todos~ */
 
-COPY ~nanstein\itm-files\mho_clk1.itm~ ~override\mho_clk1.itm~
+COPY ~nanstein/itm/mho_clk1.itm~ ~override~
 SAY NAME1 @8 /* ~Tunica de Dragon Rojo~ */ 
-SAY NAME2 @9 /* ~Túnica de Dragon Rojo~ */ 
-SAY DESC @10 /* ~Gracias a su magia Nanstein ha transformado tu Armadura de Escamas de ragon Rojo en una túnica de mago, las escamas entretejidas proporcionan una gran defensa pero son tremendamente livianas, a la vez que te hacen inmune al fuego
+SAY NAME2 @8 /* ~Túnica de Dragon Rojo~ */ 
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@9" END /* ~Gracias a su magia Nanstein ha transformado tu Armadura de Escamas de ragon Rojo en una túnica de mago, las escamas entretejidas proporcionan una gran defensa pero son tremendamente livianas, a la vez que te hacen inmune al fuego
 
 ESTADISTICAS:
 
@@ -134,17 +152,67 @@ Clase de Armadura 0
 Permitido a:
 Mago (Simple, dual o multiclase)~ */
 
-COPY ~nanstein\itm-files\mho_age1.itm~ ~override\mho_age1.itm~
-SAY NAME1 @11 /* ~Carcaj de Flechas Elementales~ */
-SAY NAME2 @12 /* ~carcaj de Flechas Elementales~ */
-SAY DESC @13 /* ~Nanstein está entusiasmado, y con razon, con el trabajo que ha hecho con el Mayal de las Edades. Como poderoso elementalista que es ha podido transformarlo en este carcaj que crea flechas elementales tan poderosas ( en algunos aspectos más) como el Mayal.
+COPY ~nanstein/itm/mho_age1.itm~ ~override~
+SAY NAME1 @10 /* ~Carcaj de Flechas Elementales~ */
+SAY NAME2 @10 /* ~carcaj de Flechas Elementales~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@11" END /* ~Nanstein está entusiasmado, y con razon, con el trabajo que ha hecho con el Mayal de las Edades. Como poderoso elementalista que es ha podido transformarlo en este carcaj que crea flechas elementales tan poderosas ( en algunos aspectos más) como el Mayal. */
 
-ESTADISTICAS:
+COPY ~nanstein/itm/mhopxvec.itm~ ~override~
+SAY NAME1 @12 /* ~Cape de Vecna~ */
+SAY NAME2 @12 /* ~Cape de Vecna~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@13" END
 
-Flechas Elementales ilimitadas (Daño 1d6 +1 de fuego +1 de ácido +1 de frio, se consideran armas +5)
-Permitido a todos.~ */
- 
-EXTEND_BOTTOM ~ar0334.bcs~ ~nanstein\baf-files\anyado_nans.baf~
+COPY ~nanstein/itm/mhopxvag.itm~ ~override~
+SAY NAME1 @14 /* ~Hache +4 : Vague~ */
+SAY NAME2 @14 /* ~Hache +4 : Vague~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@15" END
+
+COPY ~nanstein/itm/mhopxfua.itm~ ~override~
+SAY NAME1 @16 /* ~Arbalète mécanique +3 : Courroux céleste~ */
+SAY NAME2 @16 /* ~Arbalète mécanique +3 : Courroux céleste~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@17" END
+
+COPY ~nanstein/itm/mhopxfub.itm~ ~override~
+SAY NAME1 @16 /* ~Arbalète mécanique +5 : Courroux céleste~ */
+SAY NAME2 @16 /* ~Arbalète mécanique +5 : Courroux céleste~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@18" END
+
+COPY ~nanstein/itm/mhopxarg.itm~ ~override~
+SAY NAME1 @19 /* ~Dague d'argent~ */
+SAY NAME2 @19 /* ~Dague d'argent~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@20" END
+
+COPY ~nanstein/itm/mhopxgaa.itm~ ~override~
+SAY NAME1 @21 /* ~Gants de chair humaine~ */
+SAY NAME2 @21 /* ~Gants de chair humaine~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@22" END
+
+COPY ~nanstein/itm/mhopxgab.itm~ ~override~
+SAY NAME1 @21 /* ~Gants de chair humaine +3~ */
+SAY NAME2 @21 /* ~Gants de chair humaine +3~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@23" END
+
+COPY ~nanstein/itm/mhopxbal.itm~ ~override~
+SAY NAME1 @24 /* ~Targe du Baldurien~ */
+SAY NAME2 @24 /* ~Targe du Baldurien~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@25" END
+
+COPY ~nanstein/itm/mhopxprt.itm~ ~override~
+SAY NAME1 @26 /* ~Protectrice de Easthaven~ */
+SAY NAME2 @26 /* ~Protectrice de Easthaven~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@27" END
+
+COPY ~nanstein/itm/mhopxvio.itm~ ~override~
+SAY NAME1 @28 /* ~Katana violet +3~ */
+SAY NAME2 @28 /* ~Katana violet +3~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@29" END
+
+COPY ~nanstein/itm/mhopxzer.itm~ ~override~
+SAY NAME1 @30 /* ~Dague de Karash~ */
+SAY NAME2 @30 /* ~Dague de Karash~ */
+LPF ~GW_EE~ STR_VAR GW_desc_to_update = "@31" END
+
+EXTEND_BOTTOM ~ar0334.bcs~ ~nanstein/baf/anyado_nans.baf~
 
 // Readme now displayed at the beginning (see beginning of TP2)
-//AT_INTERACTIVE_EXIT ~VIEW nanstein\README.txt~
+//AT_INTERACTIVE_EXIT ~VIEW nanstein/README.txt~

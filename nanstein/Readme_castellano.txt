@@ -13,11 +13,11 @@ V. Cambios en próximas versiones
 
 I. INSTALACIÓN:
 
-- Este mod es compatible con ToB.
+- Este mod es compatible con ToB y BG2EE.
 - Es compatible también con cualquier otro mod en WeiDU o en IAP, si se instala al final de estos últimos.
 - Extraer el todo el contenido del archivo Nanstein.zip en el directorio donde tengas instalado el ToB.
 - Doble click sobre el fichero setup-nanstein, se abrirá una ventana de ms-dos en la que debes especificar y(yes) para instalar.
-- Este mod puede ser instalado/desisntalado sin causar ningun problema a la instalacion de BG.
+- Este mod puede ser instalado/desisntalado sin causar ningun problema a la instalacion de BG2(EE).
 
 Para desinstalarlo:
 - Ejecuta de nuevo setup-nanstein.exe y te dará las opciones de reinstalar o desinstalar.
