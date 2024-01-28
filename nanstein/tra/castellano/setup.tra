@@ -1,3 +1,7 @@
+@9001 = ~\([Ss]ólo[ %tab%]+\)?[Pp]ermitido[ %tab%]+[Aa][ %tab%]*:~
+@9002 = ~[Nn]o[ %tab%]+[Pp]ermitido[ %tab%]+[Aa][ %tab%]*:~
+@100 = ~FRENCH ONLY More items by Deratiseur~
+@101 = ~Requiert main componant~
 @0    = ~Nanstein, Ingeniero Magico en Jefe del Monte Noimporta~
 @1    = ~Nanstein~
 @2    = ~Carsomyr +4~

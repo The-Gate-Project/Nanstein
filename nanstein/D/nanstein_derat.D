@@ -47,6 +47,17 @@ IF ~~ THEN BEGIN nanstein6
    IF ~PartyHasItemIdentified("sw1h54")~ THEN REPLY @9 /* ~No necesito más espadas, pero los beneficios de la Igualadora me resultarian muy utiles~ */ GOTO eql1
    IF ~PartyHasItemIdentified("plat18")~ THEN REPLY @10 /* ~Mira esta armadura de Dragon Rojo, preferiria proteger a mi mago antes que a mis guerreros~ */ GOTO clk1
    IF ~PartyHasItemIdentified("blun14")~ THEN REPLY @11 /* ~Tengo este mayal, pero no es mi estilo de lucha. Preferiria algo más ... bueno, algo más alejado del peligro~ */ GOTO age1
+   IF ~PartyHasItemIdentified("wa2robe")~ THEN REPLY @51 GOTO vecna1
+   IF ~PartyHasItemIdentified("halb09")~ THEN REPLY @53 GOTO vague1
+   IF ~PartyHasItemIdentified("sw1h51")~  THEN REPLY @55 GOTO furiea
+   IF ~PartyHasItemIdentified("c2sw1h02")~ THEN REPLY @55 GOTO furieb
+   IF ~PartyHasItemIdentified("sw2h15")~ THEN REPLY @57 GOTO argent1
+   IF ~PartyHasItemIdentified("leat21")~ THEN REPLY @59 GOTO humaina
+   IF ~PartyHasItemIdentified("c2leat01")~ THEN REPLY @59 GOTO humainb
+   IF ~PartyHasItemIdentified("wa2shiel")~ THEN REPLY @61 GOTO baldurien1
+   IF ~PartyHasItemIdentified("waflail")~ THEN REPLY @63 GOTO easthaven1
+   IF ~PartyHasItemIdentified("waninja")~ THEN REPLY @65 GOTO violet1
+   IF ~PartyHasItemIdentified("wa2dak")~ THEN REPLY @67 GOTO karash1
    
    IF ~~THEN REPLY @12 /* ~No, en este momento no deseo nada.~ */ GOTO nanstein4
 END
@@ -115,6 +126,138 @@ END
 IF ~~ THEN BEGIN age2
    SAY @35 /* ~Tus deseos son ordenes. Aunque en este caso no se quien tendrá más ganas~ */
    IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("blun14",1) DestroyItem("blun14") DestroyGold(20000) GiveItemCreate("mho_age1", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN vecna1
+   SAY @52
+   IF ~PartyGoldGT(19999)~ THEN REPLY @20 GOTO vecna2
+   IF ~PartyGoldLT(20000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN vecna2
+   SAY @28
+   IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("wa2robe",1) DestroyItem("wa2robe") DestroyGold(20000) GiveItemCreate("mhopxvec", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN vague1
+   SAY @54
+   IF ~PartyGoldGT(14999)~ THEN REPLY @73 GOTO vague2
+   IF ~PartyGoldLT(15000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN vague2
+   SAY @75
+   IF ~~ THEN DO ~TakePartyGold(15000) TakePartyItemNum("halb09",1) DestroyItem("halb09") DestroyGold(15000) GiveItemCreate("mhopxvag", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN furiea
+   SAY @56
+   IF ~PartyGoldGT(19999)~ THEN REPLY @74 GOTO furiea2
+   IF ~PartyGoldLT(20000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN furiea2
+   SAY @69
+   IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("sw1h51",1) DestroyItem("sw1h51") DestroyGold(20000) GiveItemCreate("mhopxfua", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN furieb
+   SAY @56
+   IF ~PartyGoldGT(19999)~ THEN REPLY @74 GOTO furieb2
+   IF ~PartyGoldLT(20000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN furieb2
+   SAY @69
+   IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("c2sw1h02",1) DestroyItem("c2sw1h02") DestroyGold(20000) GiveItemCreate("mhopxfub", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN argent1
+   SAY @58
+   IF ~PartyGoldGT(19999)~ THEN REPLY @20 GOTO argent2
+   IF ~PartyGoldLT(20000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN argent2
+   SAY @76
+   IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("sw2h15",1) DestroyItem("sw2h15") DestroyGold(20000) GiveItemCreate("mhopxarg", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN humaina
+   SAY @60
+   IF ~PartyGoldGT(19999)~ THEN REPLY @20 GOTO humaina2
+   IF ~PartyGoldLT(20000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN humaina2
+   SAY @70
+   IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("leat21",1) DestroyItem("leat21") DestroyGold(20000) GiveItemCreate("mhopxgaa", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN humainb
+   SAY @60
+   IF ~PartyGoldGT(19999)~ THEN REPLY @20 GOTO humainb2
+   IF ~PartyGoldLT(20000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN humainb2
+   SAY @70
+   IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("c2leat01",1) DestroyItem("c2leat01") DestroyGold(20000) GiveItemCreate("mhopxgab", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN baldurien1
+   SAY @62
+   IF ~PartyGoldGT(14999)~ THEN REPLY @20 GOTO baldurien2
+   IF ~PartyGoldLT(15000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN baldurien2
+   SAY @30
+   IF ~~ THEN DO ~TakePartyGold(15000) TakePartyItemNum("wa2shiel",1) DestroyItem("wa2shiel") DestroyGold(15000) GiveItemCreate("mhopxbal", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN easthaven1
+   SAY @64
+   IF ~PartyGoldGT(14999)~ THEN REPLY @34 GOTO easthaven2
+   IF ~PartyGoldLT(15000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN easthaven2
+   SAY @75
+   IF ~~ THEN DO ~TakePartyGold(15000) TakePartyItemNum("waflail",1) DestroyItem("waflail") DestroyGold(15000) GiveItemCreate("mhopxprt", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN violet1
+   SAY @66
+   IF ~PartyGoldGT(19999)~ THEN REPLY @77 GOTO violet2
+   IF ~PartyGoldLT(20000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN violet2
+   SAY @71
+   IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("waninja",1) DestroyItem("waninja") DestroyGold(20000) GiveItemCreate("mhopxvio", Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN karash1
+   SAY @68
+   IF ~PartyGoldGT(19999)~ THEN REPLY @78 GOTO karash2
+   IF ~PartyGoldLT(20000)~THEN REPLY @21 GOTO nanstein7
+   IF ~~ THEN REPLY @22 GOTO nanstein7
+END
+
+IF ~~ THEN BEGIN karash2
+   SAY @72
+   IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("wa2dak",1) DestroyItem("wa2dak") DestroyGold(20000) GiveItemCreate("mhopxzer", Player1,1,0,0)~ EXIT
 END
 
 INTERJECT_COPY_TRANS nanstein nanstein1 Minsc
