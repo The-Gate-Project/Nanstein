@@ -79,33 +79,33 @@ Usable by:
   All~ 
   
 @12   = ~Cape de Vecna~
-@13   = ~A votre demande Nanstein a transformÃ© en quelques coups de ciseaux et avec quelques tours de magie connus de lui seul la Robe de Vecna en une cape utile Ã  tous.
+@13   = ~A votre demande Nanstein a transformé en quelques coups de ciseaux et avec quelques tours de magie connus de lui seul la Robe de Vecna en une cape utile à tous.
 
 PARAMETRES :
 
-CapacitÃ©s d'Ã©quipement :
-Temps d'incantation rÃ©duit de 3
-+10 % de rÃ©sistance magique
+Capacités d'équipement :
+Temps d'incantation réduit de 3
++10 % de résistance magique
 Poids : 3
 
 Utilisable par :
  Tous~
 
 @14  = ~Hache +4 : Vague~
-@15  = ~Ã‡a semblait facile, mais qui d'autre que Nanstein aurait pu mieux le faire ? La hallebarde Vague est devenue une hache, sans rien perdre de son pouvoir.
+@15  = ~Ça semblait facile, mais qui d'autre que Nanstein aurait pu mieux le faire ? La hallebarde Vague est devenue une hache, sans rien perdre de son pouvoir.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s de combat : 15 % de chances de drainer l'eau du corps de la cible (15 points de dÃ©gÃ¢ts)
-                      Tue en un coup les Ã‰lÃ©mentaires de feu, les Effrits et les Salamandres (pas de Jet de sauvegarde)
+Capacités de combat : 15 % de chances de drainer l'eau du corps de la cible (15 points de dégâts)
+                      Tue en un coup les Élémentaires de feu, les Effrits et les Salamandres (pas de Jet de sauvegarde)
 TAC0 : +4
-DÃ©gÃ¢ts : 1D10+4
-Type de dÃ©gÃ¢ts : Tranchant
+Dégâts : 1D10+4
+Type de dégâts : Tranchant
 Poids : 4
 Facteur de vitesse : 3
-Type de compÃ©tence : Hache
-Type : Arme Ã  1 main
-Force nÃ©cessaire : 10
+Type de compétence : Hache
+Type : Arme à 1 main
+Force nécessaire : 10
 
 Poids : 4
 Inutilisable par :
@@ -114,138 +114,138 @@ Inutilisable par :
  Mages
  Voleurs~
 
-@16  = ~ArbalÃ¨te fulgurante +3 : Courroux cÃ©leste~
-@17  = ~Nanstein Ã  utilisÃ© de trÃ¨s vieilles recettes pour transformer le katana Furie cÃ©leste en une fantastique arbalÃ¨te qui a conservÃ© presque toute la puissance de l'arme originale. Lâ€™Ã©nergie qui permettait Ã  l'Ã©pÃ©e de lancer des sorts est maintenant consacrÃ©e Ã  la gÃ©nÃ©ration de carreaux enchantÃ©s.
+@16  = ~Arbalète fulgurante +3 : Courroux céleste~
+@17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
 
 PARAMETRES
 
-CapacitÃ©s spÃ©ciale
-Tire automatiquement des carreaux Ã©lectrique +1
-1 attaque supplÃ©mentaire par round
+Capacités spéciale
+Tire automatiquement des carreaux électrique +1
+1 attaque supplémentaire par round
 
-CapacitÃ©s de combat : 
-Tonnerre chaque fois que la cible est touchÃ©e (Ã©tourdissement, jet de sauvegarde contre les sorts)
-Choc Ã©lectrique quand la cible est touchÃ©e (5 % de chances, 20 points de dÃ©gÃ¢ts)
+Capacités de combat : 
+Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
+Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
 
-TAC0 : +4 (+3 de l'arbalÃ¨te, +1 des carreaux)
-DÃ©gÃ¢ts : 1D8+1, +1 Ã©lectrique
+TAC0 : +4 (+3 de l'arbalète, +1 des carreaux)
+Dégâts : 1D8+1, +1 électrique
 Poids : 4
 Facteur de Vitesse : 2
-CompÃ©tence : ArbalÃ¨te
-Type d'arme : Ã  2 mains
-Force nÃ©cessaire : 8
+Compétence : Arbalète
+Type d'arme : à 2 mains
+Force nécessaire : 8
 Inutilisable par :
  Druides
  Clercs
  Mages~
 
-@18  = ~Nanstein Ã  utilisÃ© de trÃ¨s vieilles recettes pour transformer le katana Furie cÃ©leste en une fantastique arbalÃ¨te qui a conservÃ© presque toute la puissance de l'arme originale. Lâ€™Ã©nergie qui permettait Ã  l'Ã©pÃ©e de lancer des sorts est maintenant consacrÃ©e Ã  la gÃ©nÃ©ration de carreaux enchantÃ©s.
+@18  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
 
 PARAMETRES
 
-CapacitÃ©s spÃ©ciale
-Tire automatiquement des carreaux Ã©lectrique +3
-1 attaque supplÃ©mentaire par round
+Capacités spéciale
+Tire automatiquement des carreaux électrique +3
+1 attaque supplémentaire par round
 
-CapacitÃ©s de combat : 
-Tonnerre chaque fois que la cible est touchÃ©e (Ã©tourdissement, jet de sauvegarde contre les sorts)
-Choc Ã©lectrique quand la cible est touchÃ©e (5 % de chances, 20 points de dÃ©gÃ¢ts)
+Capacités de combat : 
+Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
+Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
 
-TAC0 : +6 (+3 de l'arbalÃ¨te, +3 des carreaux)
-DÃ©gÃ¢ts : 1D8+3, +1 Ã©lectrique
+TAC0 : +6 (+3 de l'arbalète, +3 des carreaux)
+Dégâts : 1D8+3, +1 électrique
 Poids : 4
 Facteur de Vitesse : 1
-CompÃ©tence : ArbalÃ¨te
-Type d'arme : Ã  2 mains
-Force nÃ©cessaire : 8
+Compétence : Arbalète
+Type d'arme : à 2 mains
+Force nécessaire : 8
 Inutilisable par :
  Druide
  Clerc
  Mage~
 
 @19  = ~Dague d'argent~
-@20  = ~La puissante et malÃ©fique Ã‰pÃ©e d'argent est devenue entre les mains expertes de Nanstein une dague boomerang presque aussi dangereuse.
+@20  = ~La puissante et maléfique Épée d'argent est devenue entre les mains expertes de Nanstein une dague boomerang presque aussi dangereuse.
 
-CapacitÃ©s de combat :
-si elle est lancÃ©e, la dague revient Ã  son lanceur
-15% de chance de tuer la cible, jet de sauvegarde contre la mort Ã  -2
+Capacités de combat :
+si elle est lancée, la dague revient à son lanceur
+15% de chance de tuer la cible, jet de sauvegarde contre la mort à -2
 
 TAC0 : +3
-DÃ©gÃ¢ts : 1D8 +3
-Type de dÃ©gÃ¢t : projectile (perforant)
+Dégâts : 1D8 +3
+Type de dégât : projectile (perforant)
 Poids : 1
 Facteur de vitesse : 1
-Type de compÃ©tence : dague
-Type : arme Ã  1 main
-Force nÃ©cessaire : 3
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3
 Inutilisable par :
  Clerc~
 
 @21  = ~Gants de chair humaine~
-@22  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine retouchÃ©e par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
+@22  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
 
 PARAMETRES
 
-CapacitÃ© d'Ã©quipement :
+Capacité d'équipement :
 Classe d'Armure : 6
 Jets de sauvegarde : +3
-RÃ©sistance Ã  la magie : +15 %
+Résistance à la magie : +15 %
 
 Inutilisable par :
  Personnage bon~
 
-@23  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine amÃ©liorÃ©e retouchÃ©e par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
+@23  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine améliorée retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
 
 PARAMETRES
 
-CapacitÃ© d'Ã©quipement :
+Capacité d'équipement :
 Classe d'Armure : 3
 Jets de sauvegarde : +3
-RÃ©sistance Ã  la magie : +15 %
+Résistance à la magie : +15 %
 Constitution : bonus de 1
-DextÃ©ritÃ© : bonus de 1
-ImmunitÃ© au Poison
+Dextérité : bonus de 1
+Immunité au Poison
 Protection contre le Bien
 
 Inutilisable par :
  Personnage bon~
 
 @24  = ~Targe du Baldurien~
-@25  = ~Nanstein a transformÃ© l'imposant bouclier du Baldurien en une targe si lÃ©gÃ¨re que mÃªme les mages peuvent s'en servir. Le bouclier y a perdu son effet nÃ©faste et un peu de puissance, mais il a gardÃ© son principal intÃ©rÃªt : les spectateur n'ont qu'Ã  bien se tenir !
+@25  = ~Nanstein a transformé l'imposant bouclier du Baldurien en une targe si légère que même les mages peuvent s'en servir. Le bouclier y a perdu son effet néfaste et un peu de puissance, mais il a gardé son principal intérêt : les spectateur n'ont qu'à bien se tenir !
 
 PARAMETRES :
 
-CapacitÃ©s d'Ã©quipement :
+Capacités d'équipement :
 Renvoi des rayons de spectateur
 
 Bonus de Classe d'Armure : 3
-SpÃ©cial : ne protÃ¨ge pas contre les attaques de type Missiles ou Perforantes.
+Spécial : ne protège pas contre les attaques de type Missiles ou Perforantes.
 Poids : 1~
 
 @26  = ~Protectrice de Easthaven~
-@27  = ~Entre les mains expertes de Nanstein, le Protecteur de Easthaven est devenu un pendentif. Son poids est devenu minime mais son pouvoir dÃ©fensif est restÃ© le mÃªme.
+@27  = ~Entre les mains expertes de Nanstein, le Protecteur de Easthaven est devenu un pendentif. Son poids est devenu minime mais son pouvoir défensif est resté le même.
 
 PARAMETRES :
 
 +1 CA
-+20 % rÃ©sistance aux dÃ©gÃ¢ts physiques~
++20 % résistance aux dégâts physiques~
 
 @28  = ~Katana violet +3~
-@29  = ~Le ninja-To de la ConfrÃ©rie Ã‰carlate Ã  gagnÃ© en poids et en puissance depuis que Nanstein l'ingÃ©nieur en Ã  fait un katana. De fait, son ego n'est plus autant sÃ©lectif.
+@29  = ~Le ninja-To de la Confrérie Écarlate à gagné en poids et en puissance depuis que Nanstein l'ingénieur en à fait un katana. De fait, son ego n'est plus autant sélectif.
 
-CapacitÃ© d'Ã©quipement : une attaque supplÃ©mentaire par round
-Combat : 6 PV de dÃ©gÃ¢ts du poison par round pendant 2 rounds, si la cible rate son JS contre le poison
+Capacité d'équipement : une attaque supplémentaire par round
+Combat : 6 PV de dégâts du poison par round pendant 2 rounds, si la cible rate son JS contre le poison
 
 PARAMETRES :
 
 TAC0 : +3
-DÃ©gÃ¢ts : 1D10+3
-Type de dÃ©gÃ¢ts : tranchant
+Dégâts : 1D10+3
+Type de dégâts : tranchant
 Poids : 4
 Facteur de vitesse : 1
-Type de compÃ©tence : Katana
-Type : arme Ã  1 main
-Force nÃ©cessaire : 6
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
 
 Utilisable par :
  Guerriers
@@ -253,24 +253,24 @@ Utilisable par :
  Moines~
 
 @30  = ~Dague de Karash~
-@31  = ~Nanstein s'est encore une fois surpassÃ© : non seulement il a transformÃ© le Katana Zerth de Dak'kon en une lame plus utile Ã  un mage, mais en plus il a rÃ©veillÃ© le pouvoir du karash.
+@31  = ~Nanstein s'est encore une fois surpassé : non seulement il a transformé le Katana Zerth de Dak'kon en une lame plus utile à un mage, mais en plus il a réveillé le pouvoir du karash.
  
 PARAMETRES :
 
-CapacitÃ©s d'Ã©quipement :
-Double les sort de niveau 1
-mÃ©morisation d'un sort supplÃ©mentaire des niveaux 2, 3 et 4
-Bonus Ã  la CA +2
+Capacités d'équipement :
+Double les sorts de niveau 1
+mémorisation d'un sort supplémentaire des niveaux 2, 3 et 4
+Bonus à la CA +2
 Jet de sauvegarde contre les sorts +3
-RÃ©sistance Ã  a magie : +10%
+Résistance à a magie : +10%
 
-DÃ©gÃ¢ts : 1D8 + 2
+Dégâts : 1D10 + 2
 TAC0 : +2
 Poids : 1
 Facteur de vitesse : 0
-Type de compÃ©tence : Dague
-Type: arme Ã  1 main
-Force nÃ©cessaire : 3
+Type de compétence : Dague
+Type: arme à 1 main
+Force nécessaire : 3
 Non utilisable par :
 Clerc~
 

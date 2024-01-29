@@ -6,7 +6,7 @@ AUTHOR ~mhoram@clandlan.net~
 // There are several changes to use new features of WeiDU
 
 // Version displayed in the WeiDU.log
-VERSION ~V2~
+VERSION ~2.1~
 
 /////////////////// REPLACEMENT FOR README DISPLAY ////////////////////////////
 // The readme can be displayed at the beginning of installation (WeiDU will ask).
@@ -78,11 +78,13 @@ LANGUAGE ~English (update only in french)~
 
 BEGIN @0 /* ~Nanstein, Ingeniero Magico en Jefe del Monte Noimporta~ */
 DESIGNATED 0
-LABEL ~Nanstein-Main~
+LABEL ~Mhoram_Nanstein-Main~
 
 //////////////////////// MODIFIED FOR TRANSLATION SUPPORT /////////////////////
 // nanstein.d was renamed as nanstein_d.d to avoid conflicts in the names of the TRA files.
 ///////////////////////////////////////////////////////////////////////////////
+
+COPY ~nanstein/eff~ ~override~
 
 COPY ~nanstein/cre/nanstein.cre~ ~override~ //Nanstein
 SAY NAME1 @1 /* ~Nanstein~ */
@@ -179,11 +181,10 @@ COMPILE ~nanstein/baf/nanstein.baf~
 
 BEGIN @100 /*~More items by Deratiseur~*/
 DESIGNATED 100
-LABEL ~Nanstein-Derat-items~
+LABEL ~Mhoram_Nanstein-Derat-items~
 REQUIRE_COMPONENT ~Setup-nanstein.tp2~ ~0~ @101
 
-COMPILE ~nanstein/d/nanstein_derat.d~
-USING ~nanstein/tra/autotra/%LANGUAGE%/nanstein_derat.tra~
+COMPILE ~nanstein/d/addition/nanstein_d.d~
 
 COPY ~nanstein/itm/mhopxvec.itm~ ~override~
 SAY NAME1 @12 /* ~Cape de Vecna~ */

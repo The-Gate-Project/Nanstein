@@ -4,7 +4,7 @@
 @101 = ~Necessite le composant principal~
 @0 = ~Nanstein, Ingenieur mage en chef de la montagne Sansimportance~
 @1 = ~Nanstein~
-@2 = ~Carsomyr +4~
+@2 = ~Carsomyr~
 @3 = ~Nanstein a reforgé la Vengeresse Sacrée Carsomyr pour la transformer en une épée courte, comme vous le lui avez demandé. Le processus a coûté à Carsomyr une partie de son pouvoir qui a disparu lors de la transformation. Même ainsi, il en résulte une arme terrible bien qu'anonyme, qui ne vaudra rien à la vente.
 
 PARAMETRES :
@@ -29,7 +29,7 @@ Utilisable par :
  Voleur (mono ou multiclassé)
  Rôdeur (mono ou multiclassé)~
 
-@4 = ~Crom Frayer +4~
+@4 = ~Crom Frayer~
 @5 = ~Nanstein, sur votre demande, a reforgé le légendaire marteau Crom Faeyr, le transformant en une masse. Il a peut-être perdu une partie de son pouvoir, mais il continue d'être une arme terrible même si son origine inconnue rend nulle sa valeur monétaire.
 
 PARAMETRES :
@@ -95,13 +95,13 @@ Poids : 3
 Utilisable par :
  Tous~
 
-@14  = ~Hache +4 : Vague~
+@14  = ~Hache de la Vague~
 @15  = ~Ça semblait facile, mais qui d'autre que Nanstein aurait pu mieux le faire ? La hallebarde Vague est devenue une hache, sans rien perdre de son pouvoir.
 
 PARAMÈTRES :
 
 Capacités de combat : 15 % de chances de drainer l'eau du corps de la cible (15 points de dégâts)
-                      Tue en un coup les Élémentaires de feu, les Effrits et les Salamandres (pas de Jet de sauvegarde)
+                      Tue en un coup les Élémentaires de feu, les Éfrit et les Salamandres (pas de Jet de sauvegarde)
 TAC0 : +4
 Dégâts : 1D10+4
 Type de dégâts : Tranchant
@@ -118,7 +118,7 @@ Inutilisable par :
  Mages
  Voleurs~
 
-@16  = ~Arbalète fulgurante +3 : Courroux céleste~
+@16  = ~Arbalète fulgurante : Courroux céleste~
 @17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
 
 PARAMETRES
@@ -226,15 +226,15 @@ Bonus de Classe d'Armure : 3
 Spécial : ne protège pas contre les attaques de type Missiles ou Perforantes.
 Poids : 1~
 
-@26  = ~Protectrice de Easthaven~
-@27  = ~Entre les mains expertes de Nanstein, le Protecteur de Easthaven est devenu un pendentif. Son poids est devenu minime mais son pouvoir défensif est resté le même.
+@26  = ~Protectrice d'Havredest~
+@27  = ~Entre les mains expertes de Nanstein, le Protecteur d'Havredest est devenu un pendentif. Son poids est devenu minime mais son pouvoir défensif est resté le même.
 
 PARAMETRES :
 
 +1 CA
 +20 % résistance aux dégâts physiques~
 
-@28  = ~Katana violet +3~
+@28  = ~Katana violet~
 @29  = ~Le ninja-To de la Confrérie Écarlate à gagné en poids et en puissance depuis que Nanstein l'ingénieur en à fait un katana. De fait, son ego n'est plus autant sélectif.
 
 Capacité d'équipement : une attaque supplémentaire par round
@@ -262,13 +262,13 @@ Utilisable par :
 PARAMETRES :
 
 Capacités d'équipement :
-Double les sort de niveau 1
+Double les sorts de niveau 1
 mémorisation d'un sort supplémentaire des niveaux 2, 3 et 4
 Bonus à la CA +2
 Jet de sauvegarde contre les sorts +3
 Résistance à a magie : +10%
 
-Dégâts : 1D8 + 2
+Dégâts : 1D10 + 2
 TAC0 : +2
 Poids : 1
 Facteur de vitesse : 0
