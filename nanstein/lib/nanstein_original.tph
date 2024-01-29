@@ -1,0 +1,99 @@
+
+
+//////////////////////// MODIFIED FOR TRANSLATION SUPPORT /////////////////////
+// nanstein.d was renamed as nanstein_d.d to avoid conflicts in the names of the TRA files.
+///////////////////////////////////////////////////////////////////////////////
+
+COPY ~nanstein/eff~ ~override~
+
+COPY ~nanstein/cre/nanstein.cre~ ~override~ //Nanstein
+SAY NAME1 @1 /* ~Nanstein~ */
+SAY NAME2 @1 /* ~Nanstein~ */
+
+COPY ~nanstein/itm/mho_car1.itm~ ~override~ //Carsomyr como espada corta +4
+SAY NAME1 @2 /* ~Carsomyr +4~ */
+SAY NAME2 @2 /* ~Carsomyr +4~ */
+LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@3" END /* ~Nanstein ha reformado a la Vengadora Sagrada Carsomyr para convertirla en Espada Corta tal y como le pediste. El proceso ha sido costoso y parte del poder de Carsomyr ha desaparecido gastado en la transformación. Aún así el resultado es un arma temible aunque anonima que no valdrá nada en el mercado.
+
+ESTADISTÍCAS:
+
+Aptitudes Poseídas:
+50% de Resistencia mágica
+Disipar Magia 3 veces al día
+
+Aptitudes de Combate:
++5 al daño contra oponentes Caóticos Malignos más bonificadores adicionales
+Disipar Magia cuando golpea a un oponente
+THACO: +4
+Daño: 1D10 +4
+Tipo de Daño: Perforante
+Peso: 2
+Factor de Velocidad 0
+Talento Marcial: Espada Corta
+
+PERMITIDO a:
+Personajes no malvados
+Ladron (simple o multiclase)
+Explorador (simple o multiclase)~ */
+
+COPY ~nanstein/itm/mho_cro1.itm~ ~override~ //Crom Frayer como maza +4
+SAY NAME1 @4 /* ~Crom Frayer +4~ */
+SAY NAME2 @4 /* ~Crom Frayer +4~ */
+LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@5" END /* ~Nanstein ha reformado por petición tuya el legendario martillo Crom Frayer convirtiendolo en una maza. Quizás haya perdido parte de su poder, pero sigue siendo un terrible arma aunque su origen desconocido anula su valor monetario.
+
+ESTADISTICAS: 
+
+Aptitudes Especiales:
+Concede una puntuación de 22 en Fuerza
+Mata Gigantes de Piedra, Golems de Arcilla, ettins y Trolls
+THACO +4
+Daño 2D4+3
+Tipo de Daño: Contundente
+Peso: 8
+Factor de Velocidad: 1
+Talento Marcial: Maza
+
+Permitido a: 
+Clérigo (simple, dual o multiclase)~ */
+
+COPY ~nanstein/itm/mho_eql1.itm~ ~override~  //Igualadora como Fajin
+SAY NAME1 @6 /* ~Fajin de Neutralidad activa~ */
+SAY NAME2 @6 /* ~Fajin de Neutralidad activa~ */
+LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@7" END /* ~Nanstein ha transformado la Igualadora de espada en cinturon, paradojicamente casí lo único que ha perdido es su precio.
+
+ESTADISTICAS:
+
+Contra caótico neutral y legal neutral: +1 al ataque y +2 al daño.
+Contra neutral bueno y neutral maligno: +2 al ataque y +4 al daño.
+Contra el resto de alineamientos excepto neutral verdadero: +3 al ataque y +6 al daño
+Inmunidad a hechizar y confusión.
+
+Permitido a:
+Todos~ */
+
+COPY ~nanstein/itm/mho_clk1.itm~ ~override~
+SAY NAME1 @8 /* ~Tunica de Dragon Rojo~ */ 
+SAY NAME2 @8 /* ~Túnica de Dragon Rojo~ */ 
+LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@9" END /* ~Gracias a su magia Nanstein ha transformado tu Armadura de Escamas de ragon Rojo en una túnica de mago, las escamas entretejidas proporcionan una gran defensa pero son tremendamente livianas, a la vez que te hacen inmune al fuego
+
+ESTADISTICAS:
+
+Clase de Armadura 0
+100% de Resistencia al Fuego.
+
+Permitido a:
+Mago (Simple, dual o multiclase)~ */
+
+COPY ~nanstein/itm/mho_age1.itm~ ~override~
+SAY NAME1 @10 /* ~Carcaj de Flechas Elementales~ */
+SAY NAME2 @10 /* ~carcaj de Flechas Elementales~ */
+LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@11" END /* ~Nanstein está entusiasmado, y con razon, con el trabajo que ha hecho con el Mayal de las Edades. Como poderoso elementalista que es ha podido transformarlo en este carcaj que crea flechas elementales tan poderosas ( en algunos aspectos más) como el Mayal. */
+
+EXTEND_BOTTOM ~ar0334.bcs~ ~nanstein/baf/anyado_nans.baf~
+
+COMPILE ~nanstein/d/nanstein_d.d~
+
+COMPILE ~nanstein/baf/nanstein.baf~
+
+// Readme now displayed at the beginning (see beginning of TP2)
+//AT_INTERACTIVE_EXIT ~VIEW nanstein/README.txt~

@@ -1,7 +1,8 @@
 @9001 = ~[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
 @9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@99 = ~Originale version~
 @100 = ~Plus d'objets par Deratiseur~
-@101 = ~Necessite le composant principal~
+@101 = ~Un autre composant est deja installe~
 @0 = ~Nanstein, Ingenieur mage en chef de la montagne Sansimportance~
 @1 = ~Nanstein~
 @2 = ~Carsomyr~
