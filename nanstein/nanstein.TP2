@@ -79,13 +79,11 @@ LANGUAGE ~English (update only in french)~
 BEGIN @99 /* ~Nanstein, Ingeniero Magico en Jefe del Monte Noimporta~ */
 DESIGNATED 0 SUBCOMPONENT @0 
 LABEL ~Mhoram_Nanstein-Main~
-FORBID_COMPONENT ~Setup-nanstein.tp2~ ~100~ @101
 
 INCLUDE ~nanstein/lib/nanstein_original.tph~	
 
 BEGIN @100 /*~More items by Deratiseur~*/
 DESIGNATED 100 SUBCOMPONENT @0 
 LABEL ~Mhoram_Nanstein-Derat-items~
-FORBID_COMPONENT ~Setup-nanstein.tp2~ ~99~ @101
 
 INCLUDE ~nanstein/lib/nanstein_derat.tph~	
