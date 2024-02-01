@@ -61,7 +61,7 @@ AUTO_TRA ~nanstein/tra/autotra/%LANGUAGE%~
 // immediately (e.g., because they contain the translated names of the
 // modules the user will install, such as in the setup).
 ///////////////////////////////////////////////////////////////////////
-LANGUAGE ~Castellano (Actualitza nomes en frances)~
+LANGUAGE ~Castellano~
          ~castellano~
          ~nanstein/tra/castellano/setup.tra~
 
@@ -69,7 +69,7 @@ LANGUAGE ~Francais (traduction d'Althea, des d'Oghmatiques)~
          ~francais~
          ~nanstein/tra/francais/setup.tra~
 
-LANGUAGE ~English (update only in french)~
+LANGUAGE ~English~
          ~english~
          ~nanstein/tra/english/setup.tra~
 

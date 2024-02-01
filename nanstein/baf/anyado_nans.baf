@@ -5,4 +5,3 @@ THEN
     SetGlobal("Nanstein","ar0334",1)
     CreateCreature("Nanstein",[566.314],3)  // Mhoram
 END
-

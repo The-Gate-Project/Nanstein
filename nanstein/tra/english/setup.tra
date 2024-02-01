@@ -1,7 +1,7 @@
 @9001 = ~[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @99 = ~Original version~
-@100 = ~FRENCH ONLY More items by Deratiseur~ 
+@100 = ~FRENCH ONLY More items by Deratiseur (Translations are welcome)~ 
 @101 = ~Another component is already installed~
 @0    = ~Nanstein, Chief Mage Engineer of Mountain Sansimportance~
 @1    = ~Nanstein~
