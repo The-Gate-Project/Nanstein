@@ -1,14 +1,14 @@
 IF
-   AttackedBy([ANYONE],DEFAULT)
+	AttackedBy([ANYONE],DEFAULT)
 THEN
-    RESPONSE #100
-    DisplayStringHead(Myself,@0 /* ~Necios, me obligais a luchar~ */)
-	Wait(2)
-	FaceObject(LastAttackerOf)
-	SetSequence(SEQ_CAST)
-	Wait(1)
-	CreateVisualEffectObject("SPFLSRIN",LastAttackerOf)
-	CreateVisualEffectObject("SPFIREPI",LastAttackerOf)
-	Wait(1)
-    ReallyForceSpell(LastAttackerOf(Myself),CUTSCENE_POWERWORD_KILL)
+	RESPONSE #100
+		DisplayStringHead(Myself,@0 /* ~Necios, me obligais a luchar~ */)
+		Wait(2)
+		FaceObject(LastAttackerOf)
+		SetSequence(SEQ_CAST)
+		Wait(1)
+		CreateVisualEffectObject("SPFLSRIN",LastAttackerOf)
+		CreateVisualEffectObject("SPFIREPI",LastAttackerOf)
+		Wait(1)
+		ReallyForceSpell(LastAttackerOf(Myself),CUTSCENE_POWERWORD_KILL)
 END

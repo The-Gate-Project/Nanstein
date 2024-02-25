@@ -80,10 +80,10 @@ BEGIN @99 /* ~Nanstein, Ingeniero Magico en Jefe del Monte Noimporta~ */
 DESIGNATED 0 SUBCOMPONENT @0 
 LABEL ~Mhoram_Nanstein-Main~
 
-INCLUDE ~nanstein/lib/nanstein_original.tph~	
+	INCLUDE ~nanstein/lib/nanstein_original.tph~	
 
 BEGIN @100 /*~More items by Deratiseur~*/
 DESIGNATED 100 SUBCOMPONENT @0 
 LABEL ~Mhoram_Nanstein-Derat-items~
 
-INCLUDE ~nanstein/lib/nanstein_derat.tph~	
+	INCLUDE ~nanstein/lib/nanstein_derat.tph~
