@@ -73,7 +73,7 @@ Usable by:
   Cleric (single, dual-class or multiclass)~ 
 
 Girdle of active neutrality
-----------------------------
+---------------------------
 
 STATISTICS:
 
@@ -97,7 +97,7 @@ Usable by:
   Mage (single, dual-class or multiclass)
   
 Quiver of Elemental Arrows
----------------------------
+--------------------------
 
 STATISTICS:
 
@@ -106,6 +106,183 @@ STATISTICS:
 Usable by:
   All
   
+Cloak of Vecna
+--------------
+
+Improves casting speed by 3
+Magic Resistance: +10 %
+
+Battle-axe +4 : Wave
+--------------------
+ 
+15% chance of draining the victim of water (+15 cold damage)
+Slays fire elementals, efreet, and salamanders on hit
+
+ 
+THAC0: +4
+Damage: 1D10+4 (slashing)
+Speed Factor: 4
+Weight: 4
+Proficiency Type: Axe
+Type: One handed
+Requires:
+ 10 Strength
+ 
+Unusable by:
+ Druids
+ Clerics
+ Mages
+ Thiefs
+ 
+ Dazzling crossbow +3: Celestial wrath
+ -------------------------------------
+
+When no bolts are equipped, the crossbow electrical missiles +1. The missiles receive +4 to hit, including the bonus listed below, and deal a total of 1d8+1 missile and 1 electrical damage
+1 extra attack per round
+Booming Thunder: Hit target must save vs. Spell or be stunned for 1 round
+Shocking Blow: 5% chance of an extra 20 electrical damage to hit target
+
+THAC0: +4 (+3 from the crossbow, +1 from the bolts)
+Damage: 1D8+1, +1 electrical
+Speed Factor: 2
+Weight: 4
+Proficiency Type: Crossbow
+Type: Two-handed
+Requires:
+ 8 Strength
+ 
+Unusable by:
+ Druid
+ Cleric
+ Mage
+ 
+Dazzling crossbow +3: Celestial wrath (version pre-upgraded by Item Upgrade)
+-------------------------------------
+
+When no bolts are equipped, the crossbow electrical missiles +3. The missiles receive +6 to hit, including the bonus listed below, and deal a total of 1d8+3 missile and 1 electrical damage
+1 extra attack per round
+Booming Thunder: Hit target must save vs. Spell or be stunned for 1 round
+Shocking Blow: 5% chance of an extra 20 electrical damage to hit target
+
+THAC0: +4 (+3 from the crossbow, +3 from the bolts)
+Damage: 1D8+3, +1 electrical
+Speed Factor: 2
+Weight: 4
+Proficiency Type: Crossbow
+Type: Two-handed
+Requires:
+ 8 Strength
+ 
+Unusable by:
+ Druid
+ Cleric
+ Mage
+
+Silver dagger
+-------------
+
+Returns to the wielder's hand when thrown
+30% chance per hit that target must save vs. Death at -2 or die
+ 
+THAC0: +3
+Damage: 1D8 +3
+Damage type (melee): Piercing
+Damage type (thrown): Missile
+Speed Factor: 1
+Weight: 1
+Proficiency Type: dagger
+Type : One handed
+Requires:
+ 3 Strength
+
+Unusable by:
+ Cleric
+ 
+Gloves of Human Flesh
+---------------------
+
+ Armor Class: 6
+Saving Throws: +3
+Magic Resistance: +15 %
+
+Unusable by:
+ Good character
+ 
+
+Gloves of Human Flesh (version pre-upgraded by Item Upgrade)
+---------------------
+
+Armor Class: 3
+Saving Throws: +3
+Magic Resistance: +15 %
+Constitution: +1
+Dexterity: +1
+Immunity to poison
+Protection From Good
+
+Unusable by:
+ Good character
+ 
+Buckler of Balduran
+-------------------
+
+Armor Class: +4 (No protection against missile and piercing attacks)
+Reflects beholder rays
+
+Weight: 1
+
+Protector of Easthaven
+----------------------
+
+Armor Class: +1
+Resistance to slashing, piercing, and crushing damage: +20%
+ 
+Katana of the Scarlet Brotherhood +3
+------------------------------------
+
+1 extra attack per round
+Hit target takes 6 points of poison damage per round for 2 rounds (Save vs. Death negates)
+
+THAC0: +3
+Damage: 1D10+3 (slashing)
+Speed Factor: 2
+Weight: 4
+Proficiency Type: Katana
+Type : One handed
+Requires:
+ 6 Strength
+ 
+Usable by :
+ Warrior
+ Thief
+ Monk
+ 
+Dagger ofe Karash
+-----------------
+
+Doubles level 1 memorizable spells
+Can memorize one extra 2nd-, 3rd-, and 4th-level wizard spell
+Armor Class: +2
+Saving Throws vs spells: +3
+Magic Resistance: +10%
+
+Damage: 1D8 +2
+THAC0: +2
+Speed Factor: 0
+Weight: 1
+Proficiency Type: Dagger
+Type: One handed
+Requires:
+ 3 Strength
+
+Unusable by:
+Cleric
+
+
+
+
+
+ 
 If you have any suggestions, criticisms, advice, questions or threats, you can post on the Forum workshop Corellon Clan dlan (www.clandlan.net / foros) or send by mail to mhoram @ clandlan.net
 
 III. CREDITS: For change, thanks go to Clan DLAN which gives the maximum as always, less Mhoram is a tramp.

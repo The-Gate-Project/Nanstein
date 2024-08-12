@@ -1,7 +1,7 @@
 @9001 = ~[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @99 = ~Original version~
-@100 = ~FRENCH ONLY More items by Deratiseur (Translations are welcome)~ 
+@100 = ~More items by Deratiseur~ 
 @101 = ~Another component is already installed~
 @0    = ~Nanstein, Chief Mage Engineer of Mountain Sansimportance~
 @1    = ~Nanstein~
@@ -10,20 +10,23 @@
 
 STATISTICS:
 
-Special abilities:
-  50% magic resistance
-  Dispel magic 3 times per day
+Equipped abilities:
+ 50% magic resistance
 
-Combat capabilities:
-  5 points of damage against chaotic evil, plus additional bonuses
-  Dispel Magic when it hits an opponent
-
+Combat abilities:
+ 5 points of damage against chaotic evil, plus additional bonuses
+ Dispel Magic when it hits an opponent
+  
+Charge abilities:
+ Dispel magic 3 times per day
+ 
 THAC0: 4
 Damage: 1D10+4
 Damage type: Piercing
-Weight: 2
 Speed factor: 0
 Proficiency: Short sword
+
+Weight: 2
 
 Usable by:
   Non-Evil Characters
@@ -34,246 +37,268 @@ Usable by:
 
 STATISTICS:
 
-Special abilities:
-  Sets Strength to 22
-  Kills Stone and Clay Golems, Ettin and Trolls in a single hit
+Equipped abilities:
+ Sets Strength to 22
+  
+Combat abilities:
+ Kills Stone and Clay Golems, Ettin and Trolls in a single hit
 
 THAC0: 4
 Damage: 2D4+3
-Damage Type: Blunt
-Weight: 8
+Damage Type: crushing
 Speed Factor: 1
 Proficiency: Mace
 
+Weight: 8
+
 Usable by:
-  Cleric (single, dual-class or multiclass)~ 
+ Cleric (single, dual-class or multiclass)~ 
 @6    = ~Girdle of active neutrality ~
 @7    = ~Nanstein turned the sword in belt Equalizer, paradoxically the only thing he has lost is its market value.
 
 STATISTICS:
 
-  Against the chaotic neutral and lawful neutral: +1 to attack and +1 damage
-  Against the neutral good and neutral bad: +2 attack and +2 damage
-  Against all other alignments except truw neutral: +3 to attack and +6 damage
-  Immunity against domination and confusion
+Equipped abilities:
+ Against the chaotic neutral and lawful neutral: +1 to attack and +1 damage
+ Against the neutral good and neutral bad: +2 attack and +2 damage
+ Against all other alignments except truw neutral: +3 to attack and +6 damage
+ Immunity against domination and confusion
 
 Usable by:
-  All~ 
+ All~ 
 @8    = ~Red Dragonscale Robe~
 @9   = ~With his magical abilities, Nanstein transformed your Red Dragonscale Armor into a Mage robe, whose interspersed scales give a good armor classr, but are very small, and at the same time grant immunity against fire .
 
 STATISTICS:
 
-Armor Class: 0
-100% fire resistance
+Equipped abilities:
+ Armor Class: 0
+ 100% fire resistance
 
 Usable by:
-  Mage (single, dual-class or multiclass)~ 
+ Mage (single, dual-class or multiclass)~ 
 @10   = ~Quiver of Elemental Arrows~
 @11   = ~Nanstein was enthusiastic, and with good reason, as he did a good job with the Flail of Ages. As a powerful manipulator of the elements, he could turn it into a quiver of arrows that produces elemental damage as powerful (and in some respects, a little more) than the Flail of Ages.
 
 STATISTICS:
 
-  Unlimited Elemental Arrows (damage: 1d6 +1 Fire, +1 acid, 1 cold, they are considered +5 weapons)
+ Unlimited Elemental Arrows (damage: 1d6 +1 Fire, +1 acid, 1 cold, they are considered +5 weapons)
 
 Usable by:
-  All~ 
+ All~ 
   
-@12   = ~Cape de Vecna~
-@13   = ~A votre demande Nanstein a transformé en quelques coups de ciseaux et avec quelques tours de magie connus de lui seul la Robe de Vecna en une cape utile à tous.
+@12   = ~Cloak of Vecna~
+@13   = ~At your request, Nanstein has transformed the Robe of Vecna into a useful cape with a few scissors and a few magic tricks known only to himself.
 
-PARAMETRES :
+STATISTICS:
 
-Capacités d'équipement :
-Temps d'incantation réduit de 3
-+10 % de résistance magique
-Poids : 3
 
-Utilisable par :
- Tous~
+Equipped abilities:
+ Improves casting speed by 3
+ Magic Resistance: +10 %
 
-@14  = ~Hache +4 : Vague~
-@15  = ~Ça semblait facile, mais qui d'autre que Nanstein aurait pu mieux le faire ? La hallebarde Vague est devenue une hache, sans rien perdre de son pouvoir.
+Weight: 3~
 
-PARAMÈTRES :
+@14  = ~Battle-axe +4 : Wave~
+@15  = ~It sounded easy, but who else could have done it better than Nanstein? The Wave halberd became an axe, without losing any of its power.
 
-Capacités de combat : 15 % de chances de drainer l'eau du corps de la cible (15 points de dégâts)
-                      Tue en un coup les Élémentaires de feu, les Effrits et les Salamandres (pas de Jet de sauvegarde)
-TAC0 : +4
-Dégâts : 1D10+4
-Type de dégâts : Tranchant
-Poids : 4
-Facteur de vitesse : 3
-Type de compétence : Hache
-Type : Arme à 1 main
-Force nécessaire : 10
+STATISTICS:
+ 
+Combat abilities:
+ 15% chance of draining the victim of water (+15 cold damage)
+ Slays fire elementals, efreet, and salamanders on hit
 
-Poids : 4
-Inutilisable par :
- Druides
- Clercs
+THAC0: +4
+Damage: 1D10+4 (slashing)
+Speed Factor: 4
+Proficiency Type: Axe
+Type: One handed
+Requires:
+ 10 Strength
+ 
+Weight: 4
+
+Unusable by:
+ Druids
+ Clerics
  Mages
- Voleurs~
+ Thiefs~
 
-@16  = ~Arbalète fulgurante +3 : Courroux céleste~
-@17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
+@16  = ~Dazzling crossbow +3: Celestial wrath~
+@17  = ~Nanstein has used ancient recipes to transform the Celestial Fury katana into a fantastic crossbow that retains almost all the power of the original weapon. The energy that enabled the sword to cast spells is now devoted to the generation of enchanted bolts.
 
-PARAMETRES
+PSTATISTICS:
+ 
+Combat abilities:
+ When no bolts are equipped, the crossbow electrical missiles +1. The missiles receive +4 to hit, including the bonus listed below, and deal a total of 1d8+1 missile and 1 electrical damage
+ 1 extra attack per round
+ Booming Thunder: Hit target must save vs. Spell or be stunned for 1 round
+ Shocking Blow: 5% chance of an extra 20 electrical damage to hit target
 
-Capacités spéciale
-Tire automatiquement des carreaux électrique +1
-1 attaque supplémentaire par round
+THAC0: +4 (+3 from the crossbow, +1 from the bolts)
+Damage: 1D8+1, +1 electrical
+Speed Factor: 2
+Proficiency Type: Crossbow
+Type: Two-handed
+Requires:
+ 8 Strength
+ 
+Weight: 4
 
-Capacités de combat : 
-Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
-Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
-
-TAC0 : +4 (+3 de l'arbalète, +1 des carreaux)
-Dégâts : 1D8+1, +1 électrique
-Poids : 4
-Facteur de Vitesse : 2
-Compétence : Arbalète
-Type d'arme : à 2 mains
-Force nécessaire : 8
-Inutilisable par :
- Druides
- Clercs
- Mages~
-
-@18  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
-
-PARAMETRES
-
-Capacités spéciale
-Tire automatiquement des carreaux électrique +3
-1 attaque supplémentaire par round
-
-Capacités de combat : 
-Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
-Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
-
-TAC0 : +6 (+3 de l'arbalète, +3 des carreaux)
-Dégâts : 1D8+3, +1 électrique
-Poids : 4
-Facteur de Vitesse : 1
-Compétence : Arbalète
-Type d'arme : à 2 mains
-Force nécessaire : 8
-Inutilisable par :
- Druide
- Clerc
+Unusable by:
+ Druid
+ Cleric
  Mage~
 
-@19  = ~Dague d'argent~
-@20  = ~La puissante et maléfique Épée d'argent est devenue entre les mains expertes de Nanstein une dague boomerang presque aussi dangereuse.
+@18  = ~Nanstein has used ancient recipes to transform the Celestial Fury katana into a fantastic crossbow that retains almost all the power of the original weapon. The energy that enabled the sword to cast spells is now devoted to the generation of enchanted bolts.
 
-Capacités de combat :
-si elle est lancée, la dague revient à son lanceur
-15% de chance de tuer la cible, jet de sauvegarde contre la mort à -2
-
-TAC0 : +3
-Dégâts : 1D8 +3
-Type de dégât : projectile (perforant)
-Poids : 1
-Facteur de vitesse : 1
-Type de compétence : dague
-Type : arme à 1 main
-Force nécessaire : 3
-Inutilisable par :
- Clerc~
-
-@21  = ~Gants de chair humaine~
-@22  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
-
-PARAMETRES
-
-Capacité d'équipement :
-Classe d'Armure : 6
-Jets de sauvegarde : +3
-Résistance à la magie : +15 %
-
-Inutilisable par :
- Personnage bon~
-
-@23  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine améliorée retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
-
-PARAMETRES
-
-Capacité d'équipement :
-Classe d'Armure : 3
-Jets de sauvegarde : +3
-Résistance à la magie : +15 %
-Constitution : bonus de 1
-Dextérité : bonus de 1
-Immunité au Poison
-Protection contre le Bien
-
-Inutilisable par :
- Personnage bon~
-
-@24  = ~Targe du Baldurien~
-@25  = ~Nanstein a transformé l'imposant bouclier du Baldurien en une targe si légère que même les mages peuvent s'en servir. Le bouclier y a perdu son effet néfaste et un peu de puissance, mais il a gardé son principal intérêt : les spectateur n'ont qu'à bien se tenir !
-
-PARAMETRES :
-
-Capacités d'équipement :
-Renvoi des rayons de spectateur
-
-Bonus de Classe d'Armure : 3
-Spécial : ne protège pas contre les attaques de type Missiles ou Perforantes.
-Poids : 1~
-
-@26  = ~Protectrice de Easthaven~
-@27  = ~Entre les mains expertes de Nanstein, le Protecteur de Easthaven est devenu un pendentif. Son poids est devenu minime mais son pouvoir défensif est resté le même.
-
-PARAMETRES :
-
-+1 CA
-+20 % résistance aux dégâts physiques~
-
-@28  = ~Katana violet +3~
-@29  = ~Le ninja-To de la Confrérie Écarlate à gagné en poids et en puissance depuis que Nanstein l'ingénieur en à fait un katana. De fait, son ego n'est plus autant sélectif.
-
-Capacité d'équipement : une attaque supplémentaire par round
-Combat : 6 PV de dégâts du poison par round pendant 2 rounds, si la cible rate son JS contre le poison
-
-PARAMETRES :
-
-TAC0 : +3
-Dégâts : 1D10+3
-Type de dégâts : tranchant
-Poids : 4
-Facteur de vitesse : 1
-Type de compétence : Katana
-Type : arme à 1 main
-Force nécessaire : 6
-
-Utilisable par :
- Guerriers
- Voleurs
- Moines~
-
-@30  = ~Dague de Karash~
-@31  = ~Nanstein s'est encore une fois surpassé : non seulement il a transformé le Katana Zerth de Dak'kon en une lame plus utile à un mage, mais en plus il a réveillé le pouvoir du karash.
+STATISTICS:
  
-PARAMETRES :
+Combat abilities:
+ When no bolts are equipped, the crossbow electrical missiles +3. The missiles receive +6 to hit, including the bonus listed below, and deal a total of 1d8+3 missile and 1 electrical damage
+ 1 extra attack per round
+ Booming Thunder: Hit target must save vs. Spell or be stunned for 1 round
+ Shocking Blow: 5% chance of an extra 20 electrical damage to hit target
 
-Capacités d'équipement :
-Double les sorts de niveau 1
-mémorisation d'un sort supplémentaire des niveaux 2, 3 et 4
-Bonus à la CA +2
-Jet de sauvegarde contre les sorts +3
-Résistance à a magie : +10%
+THAC0: +4 (+3 from the crossbow, +3 from the bolts)
+Damage: 1D8+3, +1 electrical
+Speed Factor: 2
+Proficiency Type: Crossbow
+Type: Two-handed
+Requires:
+ 8 Strength
+ 
+Weight: 4
 
-Dégâts : 1D10 + 2
-TAC0 : +2
-Poids : 1
-Facteur de vitesse : 0
-Type de compétence : Dague
-Type: arme à 1 main
-Force nécessaire : 3
-Non utilisable par :
-Clerc~
+Unusable by:
+ Druid
+ Cleric
+ Mage~
+
+@19  = ~Silver dagger~
+@20  = ~The powerful and evil Silver Sword has become, in Nanstein's capable hands, a boomerang dagger almost as dangerous.
+
+STATISTICS:
+ 
+Combat abilities:
+ Returns to the wielder's hand when thrown
+ 30% chance per hit that target must save vs. Death at -2 or die
+ 
+THAC0: +3
+Damage: 1D8 +3
+Damage type (melee): Piercing
+Damage type (thrown): Missile
+Speed Factor: 1
+Proficiency Type: dagger
+Type : One handed
+Requires:
+ 3 Strength
+
+Weight: 1
+
+Unusable by:
+ Cleric~
+
+@21  = ~Gloves of Human Flesh~
+@22  = ~These gloves are all that's left of Nanstein's reworked human flesh armor. Human flesh lost some of its power in the transformation, but is now usable by more people.
+
+STATISTICS:
+
+Equipped abilities:
+ Armor Class: 6
+ Saving Throws: +3
+ Magic Resistance: +15 %
+
+Unusable by:
+ Good character~
+
+@23  = ~These gloves are all that's left of Nanstein's reworked human flesh armor. Human flesh lost some of its power in the transformation, but is now usable by more people.
+
+STATISTICS:
+ 
+Equipped abilities:
+ Armor Class: 3
+ Saving Throws: +3
+ Magic Resistance: +15 %
+ Constitution: +1
+ Dexterity: +1
+ Immunity to poison
+ Protection From Good
+
+Unusable by:
+ Good character~
+
+@24  = ~Buckler of Balduran~
+@25  = ~Nanstein has transformed the Baldurian's imposing shield into a buckler so light that even mages can use it. The shield has lost its harmful effect and a little of its power, but it has retained its main interest: beholderss should watch out!
+
+STATISTICS:
+
+Equipped abilities:
+ Armor Class: +4
+ No protection against missile and piercing attacks
+
+Combat abilities:
+ Reflects beholder rays
+
+Weight: 1~
+
+@26  = ~Protector of Easthaven~
+@27  = ~In Nanstein's capable hands, the Defender of Easthaven became a necklace. Its weight has become minimal, but its defensive power has remained the same.
+
+STATISTICS:
+
+Equipped abilities:
+ Armor Class: +1
+ Resistance to slashing, piercing, and crushing damage: +20%~
+
+@28  = ~Katana of the Scarlet Brotherhood +3~
+@29  = ~The ninja-To of the Scarlet Brotherhood has gained in weight and power since Nanstein the engineer turned it into a katana. Indeed, his ego is no longer so selective.
+
+STATISTICS:
+
+Combat abilities:
+ 1 extra attack per round
+ Hit target takes 6 points of poison damage per round for 2 rounds (Save vs. Death negates)
+
+THAC0: +3
+Damage: 1D10+3 (slashing)
+Speed Factor: 2
+Proficiency Type: Katana
+Type : One handed
+Requires:
+ 6 Strength
+ 
+Weight: 4
+
+Usable by: 
+ Warrior
+ Thief
+ Monk~
+
+@30  = ~Dagger ofe Karash~
+@31  = ~Nanstein has outdone himself yet again: not only has he transformed Dak'kon's Zerth Bladea into a blade more useful to a mage, but he has also awakened the power of the karash.
+ 
+STATISTICS:
+
+Equipped abilities:
+ Doubles level 1 memorizable spells
+ Can memorize one extra 2nd-, 3rd-, and 4th-level wizard spell
+ Armor Class: +2
+ Saving Throws vs spells: +3
+ Magic Resistance: +10%
+
+Damage: 1D8 +2
+THAC0: +2
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One handed
+Requires:
+ 3 Strength
+
+Weight: 1
+
+Unusable by:
+Cleric~
 
 // WeiDU prompts
 @-1000= "The mod %TP2_FILE_NAME% contains"

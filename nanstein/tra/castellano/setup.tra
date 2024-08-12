@@ -1,7 +1,7 @@
 @9001 = ~\([Ss]ólo[ %tab%]+\)?[Pp]ermitido[ %tab%]+[Aa][ %tab%]*:~
 @9002 = ~[Nn]o[ %tab%]+[Pp]ermitido[ %tab%]+[Aa][ %tab%]*:~
 @99 = ~Original version~
-@100 = ~FRENCH ONLY More items by Deratiseur (Translations are welcome)~
+@100 = ~ENGLISH ONLY More items by Deratiseur (Translations are welcome)~
 @101 = ~Another component is already installed~
 @0    = ~Nanstein, Ingeniero Magico en Jefe del Monte Noimporta~
 @1    = ~Nanstein~
@@ -112,7 +112,7 @@ Inutilisable par :
  Voleurs~
 
 @16  = ~Arbalète fulgurante +3 : Courroux céleste~
-@17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
+@17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L'énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
 
 PARAMETRES
 
@@ -136,7 +136,7 @@ Inutilisable par :
  Clercs
  Mages~
 
-@18  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
+@18  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L'énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
 
 PARAMETRES
 

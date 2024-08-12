@@ -104,7 +104,7 @@ PARAMÈTRES :
 Capacités de combat : 15 % de chances de drainer l'eau du corps de la cible (15 points de dégâts)
                       Tue en un coup les Élémentaires de feu, les Éfrit et les Salamandres (pas de Jet de sauvegarde)
 TAC0 : +4
-Dégâts : 1D10+4
+Dégâts : 1D8+4
 Type de dégâts : Tranchant
 Poids : 4
 Facteur de vitesse : 3
@@ -120,7 +120,7 @@ Inutilisable par :
  Voleurs~
 
 @16  = ~Arbalète fulgurante : Courroux céleste~
-@17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
+@17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L'énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
 
 PARAMETRES
 
@@ -144,7 +144,7 @@ Inutilisable par :
  Clercs
  Mages~
 
-@18  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L’énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
+@18  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L'énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
 
 PARAMETRES
 
@@ -269,7 +269,7 @@ Bonus à la CA +2
 Jet de sauvegarde contre les sorts +3
 Résistance à a magie : +10%
 
-Dégâts : 1D10 + 2
+Dégâts : 1D6 + 2
 TAC0 : +2
 Poids : 1
 Facteur de vitesse : 0

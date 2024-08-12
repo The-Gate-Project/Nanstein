@@ -6,7 +6,7 @@ AUTHOR ~mhoram@clandlan.net~
 // There are several changes to use new features of WeiDU
 
 // Version displayed in the WeiDU.log
-VERSION ~2.1~
+VERSION ~2.2~
 
 /////////////////// REPLACEMENT FOR README DISPLAY ////////////////////////////
 // The readme can be displayed at the beginning of installation (WeiDU will ask).
@@ -18,7 +18,7 @@ ALWAYS
 
     // Copies tra files into the autotra-folder (to leave the originals untouched)
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
-      COPY ~nanstein/tra/castellano~  ~nanstein/tra/autotra/%LANGUAGE%~
+      COPY ~nanstein/tra/english~  ~nanstein/tra/autotra/%LANGUAGE%~
       COPY ~nanstein/tra/%LANGUAGE%~  ~nanstein/tra/autotra/%LANGUAGE%~
     END
 

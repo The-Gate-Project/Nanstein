@@ -49,3 +49,5 @@ V2.1: EE compatibility
 - InfinityAutoPackager
 - New componant FRENCH ONLY with several new items by deratiseur  
 - Corrections for items  
+
+V2.2: Completed english translation by Deratiseur 
