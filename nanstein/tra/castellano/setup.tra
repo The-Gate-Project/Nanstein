@@ -1,7 +1,7 @@
 @9001 = ~\([Ss]ólo[ %tab%]+\)?[Pp]ermitido[ %tab%]+[Aa][ %tab%]*:~
 @9002 = ~[Nn]o[ %tab%]+[Pp]ermitido[ %tab%]+[Aa][ %tab%]*:~
 @99 = ~Original version~
-@100 = ~ENGLISH ONLY More items by Deratiseur (Translations are welcome)~
+@100 = ~Mas articulos de Deratiseur~
 @101 = ~Another component is already installed~
 @0    = ~Nanstein, Ingeniero Magico en Jefe del Monte Noimporta~
 @1    = ~Nanstein~
@@ -17,14 +17,14 @@ Disipar Magia 3 veces al día
 Aptitudes de Combate:
 +5 al daño contra oponentes Caóticos Malignos más bonificadores adicionales
 Disipar Magia cuando golpea a un oponente
-THACO: +4
+GAC0: +4
 Daño: 1D10 +4
 Tipo de Daño: Perforante
 Peso: 2
 Factor de Velocidad 0
 Talento Marcial: Espada Corta
 
-PERMITIDO a:
+Sólo permitido a:
 Personajes no malvados
 Ladron (simple o multiclase)
 Explorador (simple o multiclase)~
@@ -36,14 +36,14 @@ ESTADISTICAS:
 Aptitudes Especiales:
 Concede una puntuación de 22 en Fuerza
 Mata Gigantes de Piedra, Golems de Arcilla, ettins y Trolls
-THACO +4
+GAC0 +4
 Daño 2D4+3
 Tipo de Daño: Contundente
 Peso: 8
 Factor de Velocidad: 1
 Talento Marcial: Maza
 
-Permitido a: 
+Sólo permitido a: 
 Clérigo (simple, dual o multiclase)~
 @6    = ~Fajin de Neutralidad activa~
 @7    = ~Nanstein ha transformado la Igualadora de espada en cinturon, paradojicamente casí lo único que ha perdido es su precio.
@@ -55,7 +55,7 @@ Contra neutral bueno y neutral maligno: +2 al ataque y +4 al daño.
 Contra el resto de alineamientos excepto neutral verdadero: +3 al ataque y +6 al daño
 Inmunidad a hechizar y confusión.
 
-Permitido a:
+Sólo permitido a:
 Todos~
 @8    = ~Tunica de Dragon Rojo~
 @9   = ~Gracias a su magia Nanstein ha transformado tu Armadura de Escamas de ragon Rojo en una túnica de mago, las escamas entretejidas proporcionan una gran defensa pero son tremendamente livianas, a la vez que te hacen inmune al fuego
@@ -65,7 +65,7 @@ ESTADISTICAS:
 Clase de Armadura 0
 100% de Resistencia al Fuego.
 
-Permitido a:
+Sólo permitido a:
 Mago (Simple, dual o multiclase)~
 @10   = ~Carcaj de Flechas Elementales~
 @11   = ~Nanstein está entusiasmado, y con razon, con el trabajo que ha hecho con el Mayal de las Edades. Como poderoso elementalista que es ha podido transformarlo en este carcaj que crea flechas elementales tan poderosas ( en algunos aspectos más) como el Mayal.
@@ -73,200 +73,202 @@ Mago (Simple, dual o multiclase)~
 ESTADISTICAS:
 
 Flechas Elementales ilimitadas (Daño 1d6 +1 de fuego +1 de ácido +1 de frio, se consideran armas +5)
-Permitido a todos.~
 
-@12   = ~Cape de Vecna~
-@13   = ~A votre demande Nanstein a transformé en quelques coups de ciseaux et avec quelques tours de magie connus de lui seul la Robe de Vecna en une cape utile à tous.
+Permitido a:
+ Todos~
 
-PARAMETRES :
+@12   = ~tunica de Vecna~
+@13   = ~A petición vuestra, Nanstein ha transformado la tunica de Vecna en una útil capa con unas tijeras y algunos trucos de magia que sólo él conoce.
 
-Capacités d'équipement :
-Temps d'incantation réduit de 3
-+10 % de résistance magique
-Poids : 3
+ESTADISTICAS :
 
-Utilisable par :
- Tous~
+Aptitudes Especiales :
+Tiempo de lanzamiento reducido en un 3
++10% de resistencia mágica
+Peso : 3
 
-@14  = ~Hache +4 : Vague~
-@15  = ~Ça semblait facile, mais qui d'autre que Nanstein aurait pu mieux le faire ? La hallebarde Vague est devenue une hache, sans rien perdre de son pouvoir.
+Permitido a:
+ Todos~
 
-PARAMÈTRES :
+@14  = ~Hacha +4 : Oleaje~
+@15  = ~Parecía fácil, pero ¿quién podría haberlo hecho mejor que Nanstein? La alabarda Oleaje se convirtió en un hacha, sin su poder original.
 
-Capacités de combat : 15 % de chances de drainer l'eau du corps de la cible (15 points de dégâts)
-                      Tue en un coup les Élémentaires de feu, les Effrits et les Salamandres (pas de Jet de sauvegarde)
-TAC0 : +4
-Dégâts : 1D10+4
-Type de dégâts : Tranchant
-Poids : 4
-Facteur de vitesse : 3
-Type de compétence : Hache
-Type : Arme à 1 main
-Force nécessaire : 10
+ESTADISTICAS :
 
-Poids : 4
-Inutilisable par :
- Druides
- Clercs
- Mages
- Voleurs~
+Aptitudes de Combate : 15% de probabilidad de drenar el agua del cuerpo del objetivo (15 puntos de daño)
+                      Mata a los Elementales de Fuego, Effrits y Salamandras de un solo golpe (sin tirada de salvación)
+GAC0 : +4
+Daño : 1D10+4
+Tipo de Daños : Cortante
+Peso : 4
+Factor de velocidad : 3
+Talento marcial : Hacha
+Tipo : Arma de una mano
+Fuerza necesaria : 10
 
-@16  = ~Arbalète fulgurante +3 : Courroux céleste~
-@17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L'énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
+Peso : 4
+No permitido a:
+ Druida
+ Clerigo
+ Mago
+ Ladron~
 
-PARAMETRES
+@16  = ~Ballesta deslumbrante +3: Furia celestial~
+@17  = ~Nanstein ha utilizado antiguas recetas para transformar la katana Furia Celestial en una fantástica ballesta que conserva casi todo el poder del arma original. La energía que permitía a la espada lanzar hechizos se dedica ahora a la generación de virotes encantados.
 
-Capacités spéciale
-Tire automatiquement des carreaux électrique +1
-1 attaque supplémentaire par round
+ESTADISTICAS :
 
-Capacités de combat : 
-Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
-Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
+Aptitudes Especiales
+Dispara automáticamente virotes eléctricos +1
+1 ataque extra por ronda
 
-TAC0 : +4 (+3 de l'arbalète, +1 des carreaux)
-Dégâts : 1D8+1, +1 électrique
-Poids : 4
-Facteur de Vitesse : 2
-Compétence : Arbalète
-Type d'arme : à 2 mains
-Force nécessaire : 8
-Inutilisable par :
- Druides
- Clercs
- Mages~
+Aptitudes de Combate : 
+ Trueno retumbante: El objetivo golpeado debe realizar una salvación contra hechizo o quedar aturdido durante 1 asalto.
+ Golpe impactante: 5% de probabilidad de 20 de daño eléctrico extra al objetivo golpeado
 
-@18  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L'énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
+GAC0 : +4 (+3 de Ballesta, +1 virotes)
+Daño : 1D8+1, +1 électrico
+Peso : 4
+Factor de velocidad : 2
+Talento marcial : Ballesta
+Tipo : arma a dos manos
+Fuerza necesaria: 8
+No permitido a:
+ Druida
+ Clerigo
+ Mago~
 
-PARAMETRES
+@18  = ~Nanstein ha utilizado antiguas recetas para transformar la katana Furia Celestial en una fantástica ballesta que conserva casi todo el poder del arma original. La energía que permitía a la espada lanzar hechizos se utiliza ahora para generar virotes encantados.
 
-Capacités spéciale
-Tire automatiquement des carreaux électrique +3
-1 attaque supplémentaire par round
+ESTADISTICAS :
 
-Capacités de combat : 
-Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
-Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
+Aptitudes Especiales
+Dispara automáticamente virotes con rayos eléctricos +3
+1 ataque extra por asalto
 
-TAC0 : +6 (+3 de l'arbalète, +3 des carreaux)
-Dégâts : 1D8+3, +1 électrique
-Poids : 4
-Facteur de Vitesse : 1
-Compétence : Arbalète
-Type d'arme : à 2 mains
-Force nécessaire : 8
-Inutilisable par :
- Druide
- Clerc
- Mage~
+Aptitudes de Combate: 
+Trueno cada vez que se golpea al objetivo (aturdimiento, tirada de salvación contra hechizos)
+Descarga eléctrica al golpear al objetivo (5% de probabilidad, 20 de daño)
 
-@19  = ~Dague d'argent~
-@20  = ~La puissante et maléfique Épée d'argent est devenue entre les mains expertes de Nanstein une dague boomerang presque aussi dangereuse.
+GAC0 : +6 (+3 de Ballesta, +3 virotes)
+Daño : 1D8+3, +1 électrico
+Peso : 4
+Factor de velocidad : 1
+Talento marcial: Ballesta
+Tipo : arma a dos manos
+Fuerza necesaria : 8
+No permitido a:
+ Druida
+ Clerigo
+ Mago~
 
-Capacités de combat :
-si elle est lancée, la dague revient à son lanceur
-15% de chance de tuer la cible, jet de sauvegarde contre la mort à -2
+@19  = ~Daga de plata~
+@20  = ~En las expertas manos de Nanstein, la poderosa y malvada Espada de Plata se ha convertido en una daga bumerán casi igual de peligrosa.
 
-TAC0 : +3
-Dégâts : 1D8 +3
-Type de dégât : projectile (perforant)
-Poids : 1
-Facteur de vitesse : 1
-Type de compétence : dague
-Type : arme à 1 main
-Force nécessaire : 3
-Inutilisable par :
- Clerc~
+Aptitudes de Combate:
+si es lanzada, la daga vuelve al lanzador
+15% de probabilidad de matar al objetivo, tirada de salvación contra la muerte a -2
 
-@21  = ~Gants de chair humaine~
-@22  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
+GAC0 : +3
+Daño : 1D8 +3
+Tipo de daño : proyectil (perforante)
+Peso : 1
+Factor de velocidad : 1
+Talento marcial : daga
+Tipo : arma a una mano
+Fuerza necesaria  : 3
+No permitido a:
+ Clerigo~
 
-PARAMETRES
+@21  = ~Guantes de carne humana~
+@22  = ~Estos guantes son todo lo que queda de la tunica de carne humana transformada de Nanstein. La carne humana perdió parte de su poder en la transformación, pero ahora la pueden usar más personas.
 
-Capacité d'équipement :
-Classe d'Armure : 6
-Jets de sauvegarde : +3
-Résistance à la magie : +15 %
+ESTADISTICAS :
 
-Inutilisable par :
- Personnage bon~
+Aptitudes Especiales :
+Clase de armadura : 6
+Tiradas de salvación : +3
+Resistencia a la magia : +15 %
 
-@23  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine améliorée retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
+No permitido a:
+ Personajes Buenos~
 
-PARAMETRES
+@23  = ~Estos guantes son todo lo que queda de la tunica de carne humana mejorada de Nanstein. La carne humana perdió parte de su poder en la transformación, pero ahora es utilizable por más personas.
 
-Capacité d'équipement :
-Classe d'Armure : 3
-Jets de sauvegarde : +3
-Résistance à la magie : +15 %
-Constitution : bonus de 1
-Dextérité : bonus de 1
-Immunité au Poison
-Protection contre le Bien
+ESTADISTICAS :
 
-Inutilisable par :
- Personnage bon~
+Aptitudes Especiales :
+Clase de armadura : 3
+Tiradas de salvación : +3
+Resistencia a la magia : +15 %
+Constitucion : bonus de 1
+Destreza : bonus de 1
+Inmunidad al veneno
+Proteccion contra el bien
 
-@24  = ~Targe du Baldurien~
-@25  = ~Nanstein a transformé l'imposant bouclier du Baldurien en une targe si légère que même les mages peuvent s'en servir. Le bouclier y a perdu son effet néfaste et un peu de puissance, mais il a gardé son principal intérêt : les spectateur n'ont qu'à bien se tenir !
+No permitido a:
+ Personajes Buenos~
 
-PARAMETRES :
+@24  = ~Rodela de Balduran~
+@25  = ~Nanstein ha transformado el imponente escudo del Balduran en una rodela tan ligera que incluso los magos pueden utilizarla. El escudo ha perdido su efecto dañino y un poco de su poder, pero ha conservado su principal interés: ¡los contempladores no deben de preocuparse!!
 
-Capacités d'équipement :
-Renvoi des rayons de spectateur
+ESTADISTICAS :
 
-Bonus de Classe d'Armure : 3
-Spécial : ne protège pas contre les attaques de type Missiles ou Perforantes.
-Poids : 1~
+Aptitudes Especiales :
+Retorno de los rayos del contempladores
 
-@26  = ~Protectrice de Easthaven~
-@27  = ~Entre les mains expertes de Nanstein, le Protecteur de Easthaven est devenu un pendentif. Son poids est devenu minime mais son pouvoir défensif est resté le même.
+Bonus de clase de armadura : 3
+Especial : no protege contra ataques con proyectiles o perforantes.
+Peso : 1~
 
-PARAMETRES :
+@26  = ~Defensor de Easthaven~
+@27  = ~En las manos expertas de Nanstein, el Defensor de Easthaven se ha convertido en un colgante. Su peso ha pasado a ser mínimo, pero su poder defensivo sigue siendo el mismo.
+
+ESTADISTICAS :
 
 +1 CA
-+20 % résistance aux dégâts physiques~
++20 % resistencia al daño físico~
 
-@28  = ~Katana violet +3~
-@29  = ~Le ninja-To de la Confrérie Écarlate à gagné en poids et en puissance depuis que Nanstein l'ingénieur en à fait un katana. De fait, son ego n'est plus autant sélectif.
+@28  = ~Katana escarlata +3~ 
+@29  = ~El ninja-To de la Hermandad Escarlata ha ganado en peso y poder desde que Nanstein el ingeniero la convirtió en katana. De hecho, su ego ya no es tan selectivo.
 
-Capacité d'équipement : une attaque supplémentaire par round
-Combat : 6 PV de dégâts du poison par round pendant 2 rounds, si la cible rate son JS contre le poison
+Aptitudes Especiales : un ataque extra por asalto
+Combate : 6 PS de daño de veneno por asalto durante 2 asaltos, si el objetivo falla su TS contra veneno
 
-PARAMETRES :
+ESTADISTICAS :
 
-TAC0 : +3
-Dégâts : 1D10+3
-Type de dégâts : tranchant
-Poids : 4
-Facteur de vitesse : 1
-Type de compétence : Katana
-Type : arme à 1 main
-Force nécessaire : 6
+GAC0 : +3
+Daño : 1D10+3
+Tipo de Daño : Cortante
+Peso : 4
+Factor de velocidad : 1
+Talento marcial : Katana
+Tipo : arma a una mano
+Fuerza necesaria : 6
 
-Utilisable par :
- Guerriers
- Voleurs
- Moines~
+Sólo permitido a:
+ Guerrero
+ Ladron
+ Monje~
 
-@30  = ~Dague de Karash~
-@31  = ~Nanstein s'est encore une fois surpassé : non seulement il a transformé le Katana Zerth de Dak'kon en une lame plus utile à un mage, mais en plus il a réveillé le pouvoir du karash.
+@30  = ~Daga de Karash~
+@31  = ~Nanstein ha vuelto a superarse: no sólo ha transformado la Katana de zerth de Dak'kon en una daga más útil para un mago, sino que también ha despertado el poder del karash.
  
-PARAMETRES :
+ESTADISTICAS :
 
-Capacités d'équipement :
-Double les sorts de niveau 1
-mémorisation d'un sort supplémentaire des niveaux 2, 3 et 4
-Bonus à la CA +2
-Jet de sauvegarde contre les sorts +3
-Résistance à a magie : +10%
+Aptitudes Especiales :
+Hechizos de doble nivel 1
+Memoriza un hechizo adicional de niveles 2, 3 y 4
+Bonus a la CA +2
+Tirada de salvación contra conjuro +3
+Resistencia a la magia : +10%
 
-Dégâts : 1D10 + 2
-TAC0 : +2
-Poids : 1
-Facteur de vitesse : 0
-Type de compétence : Dague
-Type: arme à 1 main
-Force nécessaire : 3
-Non utilisable par :
-Clerc~
+Daño : 1D10 + 2
+GAC0 : +2
+Peso : 1
+Factor de velocidad : 0
+Talento marcial : Daga
+Tipo: arma a una mano
+Fuerza necesaria  : 3
+No permitido a:
+Clerigo~
