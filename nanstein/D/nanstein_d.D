@@ -7,11 +7,11 @@
 BEGIN ~nanstein~
 
 // Isaya : removed unnecessary ~~ around nanstein1
-IF ~NumTimesTalkedTo(0)~ THEN BEGIN nanstein1
+IF ~NumTimesTalkedTo(0) !Global("mhNANSTEIN","GLOBAL",1)~ THEN BEGIN nanstein1
         SAY @0 /* ~Hola amigo mio. Es un placer verte por aquí. Dejame presentarme, me llamo Nanstein, Ingeniero mágico en jefe del Monte Noimporta~ */ 
-        IF ~~ THEN REPLY @1 /* ~Ingeniero mágico en jefe, suena como un puesto de gran importancia.~ */  GOTO nanstein2
-        IF ~~ THEN REPLY @2 /* ~Si, si, ya lo se ¿Para que me puedes servir tú?~ */ GOTO nanstein3
-        IF ~~ THEN REPLY @3 /* ~Si te crees que voy a dejarme engañar por un truco tan estúpido estás equivocado, no te acerques a mi, ladronzuelo~ */ GOTO nanstein4
+        IF ~~ THEN REPLY @1 /* ~Ingeniero mágico en jefe, suena como un puesto de gran importancia.~ */ DO ~SetGlobal("mhNANSTEIN","GLOBAL",1)~ GOTO nanstein2
+        IF ~~ THEN REPLY @2 /* ~Si, si, ya lo se ¿Para que me puedes servir tú?~ */ DO ~SetGlobal("mhNANSTEIN","GLOBAL",1)~ GOTO nanstein3
+        IF ~~ THEN REPLY @3 /* ~Si te crees que voy a dejarme engañar por un truco tan estúpido estás equivocado, no te acerques a mi, ladronzuelo~ */ DO ~SetGlobal("mhNANSTEIN","GLOBAL",1)~ GOTO nanstein4
 END
 
 IF ~~ THEN BEGIN nanstein2
@@ -34,7 +34,9 @@ IF ~~ THEN BEGIN nanstein4
    IF ~~ THEN REPLY @14 /* ~Perfecto~ */ EXIT
 END
 
-IF ~NumTimesTalkedToGT(0)~ THEN BEGIN nanstein5
+IF ~OR(2)
+		NumTimesTalkedToGT(0)
+		Global("mhNANSTEIN","GLOBAL",1)~ THEN BEGIN nanstein5
    SAY @15 /* ~Hola de nuevo ¿Interesado en mis servicios?.~ */ 
    IF ~~ THEN REPLY @16 /* ~Por supuesto, para eso he venido~ */ GOTO nanstein6
    IF ~~ THEN REPLY @17 /* ~Me lo he pensado mejor, creo que te dejaré solo~ */ EXIT
@@ -117,7 +119,7 @@ IF ~~ THEN BEGIN age2
    IF ~~ THEN DO ~TakePartyGold(20000) TakePartyItemNum("blun14",1) DestroyItem("blun14") DestroyGold(20000) GiveItemCreate("mho_age1", Player1,1,0,0)~ EXIT
 END
 
-INTERJECT_COPY_TRANS nanstein nanstein1 Minsc
+INTERJECT_COPY_TRANS nanstein nanstein1 mhMinsc
 == wsmith01 IF ~True()~ THEN
 @36 /* ~Te ha faltado añadir gorrón extraordinario, Gnomo.~ */
 == nanstein IF ~True()~ THEN
@@ -142,7 +144,7 @@ INTERJECT_COPY_TRANS nanstein nanstein1 Minsc
 @46 /* ~No, mi pequeña Avariel, yo no puedo hacer que vueles otra vez, pero mira a tu alrededor y verás que no te hace tanta falta como crees~ */
 END
 
-INTERJECT_COPY_TRANS nanstein nanstein2 Jan
+INTERJECT_COPY_TRANS nanstein nanstein2 mhJan
 == JANJ IF ~IsValidForPartyDialog("Jan")~ THEN
 @47 /* ~¿Ingeniero mágico en jefe?. Guauuuu, son la élite de los inventores <CHARNAME>. Seguro que tendrá algo interesante que ofrecernos. Como un nabo bomba o ... ya lo sé. ¡Un nabo volante!~ */
 == nanstein IF ~IsValidForPartyDialog("Jan")~ THEN

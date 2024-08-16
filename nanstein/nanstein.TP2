@@ -87,3 +87,10 @@ DESIGNATED 100 SUBCOMPONENT @0
 LABEL ~Mhoram_Nanstein-Derat-items~
 
 	INCLUDE ~nanstein/lib/nanstein_derat.tph~
+
+BEGIN @102 /*~Ingeniero Magico en Jefe del Monte Noimporta in ToB~*/
+DESIGNATED 102
+LABEL ~Mhoram_Nanstein-ToB~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~NANSTEIN.TP2~ ~0~ OR MOD_IS_INSTALLED ~NANSTEIN.TP2~ ~100~) @103
+
+	EXTEND_BOTTOM ~AR4500.bcs~ ~nanstein/baf/anyado_nans_ToB.baf~

@@ -28,6 +28,10 @@ Original mod from Clan DLAN
 
 Several news items by Deratiseur, Actually FRENCH ONLY, translations are welcome.
 
+### Third componant:
+
+Nanstein will be present in ToB Pocket Plane (AR4500)
+
 ## Install:
 --------
 
@@ -50,4 +54,7 @@ V2.1: EE compatibility
 - New componant FRENCH ONLY with several new items by deratiseur  
 - Corrections for items  
 
-V2.2: Completed english translation by Deratiseur 
+V2.2:
+
+- Completed english translation by Deratiseur 
+- Completed castellano translation by AlaisFcZ
