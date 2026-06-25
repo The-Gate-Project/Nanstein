@@ -31,6 +31,7 @@ ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
     LAF HANDLE_CHARSETS
       INT_VAR
         infer_charsets = 1
+		from_utf8 =1
       STR_VAR
         tra_path = EVAL ~nanstein/tra/autotra~
         // noconvert_array = fl#noconvert
@@ -72,6 +73,10 @@ LANGUAGE ~Francais (traduction d'Althea, des d'Oghmatiques)~
 LANGUAGE ~English~
          ~english~
          ~nanstein/tra/english/setup.tra~
+		 
+LANGUAGE ~Schinese~
+         ~Schinese~
+         ~nanstein/tra/Schinese/setup.tra~
 
 //////////////////////// END OF TRANSLATION SUPPORT /////////////////////
 
