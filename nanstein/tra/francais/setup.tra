@@ -8,111 +8,111 @@
 @0 = ~Nanstein, Ingenieur mage en chef de la montagne Sansimportance~
 @1 = ~Nanstein~
 @2 = ~Carsomyr~
-@3 = ~Nanstein a reforg?la Vengeresse Sacr閑 Carsomyr pour la transformer en une 閜閑 courte, comme vous le lui avez demand? Le processus a co鹴??Carsomyr une partie de son pouvoir qui a disparu lors de la transformation. M阭e ainsi, il en r閟ulte une arme terrible bien qu'anonyme, qui ne vaudra rien ?la vente.
+@3 = ~Nanstein a reforgé la Vengeresse Sacrée Carsomyr pour la transformer en une épée courte, comme vous le lui avez demandé. Le processus a coûté à Carsomyr une partie de son pouvoir qui a disparu lors de la transformation. Même ainsi, il en résulte une arme terrible bien qu'anonyme, qui ne vaudra rien à la vente.
 
 PARAMETRES :
 
-Capacit閟 sp閏iales :
- 50% de r閟istance magique
+Capacités spéciales :
+ 50% de résistance magique
  Dissipation de la magie 3 fois par jour
 
-Capacit閟 de combat :
- +5 points de d間鈚s contre les chaotiques mauvais, en plus des bonus suppl閙entaires
+Capacités de combat :
+ +5 points de dégâts contre les chaotiques mauvais, en plus des bonus supplémentaires
  Dissipation de la magie quand il frappe un adversaire
 
 TAC0 : +4
-D間鈚s : 1D10 +4
-Type de d間鈚s : perforant
+Dégâts : 1D10 +4
+Type de dégâts : perforant
 Poids : 2
 Facteur de vitesse : 0
-Type de comp閠ence : 閜閑 courte
+Type de compétence : épée courte
 
 Utilisable par :
  Personnages non mauvais
- Voleur (mono ou multiclass?
- R鬱eur (mono ou multiclass?~
+ Voleur (mono ou multiclassé)
+ Rôdeur (mono ou multiclassé)~
 
 @4 = ~Crom Frayer~
-@5 = ~Nanstein, sur votre demande, a reforg?le l間endaire marteau Crom Faeyr, le transformant en une masse. Il a peut-阾re perdu une partie de son pouvoir, mais il continue d'阾re une arme terrible m阭e si son origine inconnue rend nulle sa valeur mon閠aire.
+@5 = ~Nanstein, sur votre demande, a reforgé le légendaire marteau Crom Faeyr, le transformant en une masse. Il a peut-être perdu une partie de son pouvoir, mais il continue d'être une arme terrible même si son origine inconnue rend nulle sa valeur monétaire.
 
 PARAMETRES :
 
-Capacit閟 sp閏iales :
- Conf鑢e 22 en force
+Capacités spéciales :
+ Confère 22 en force
  Tue les golems de pierre et d'argile, les Ettins et les Trolls en un coup
 
 TAC0 : +4
-D間鈚s : 2D4 +3
-Type de d間鈚s : contondant
+Dégâts : 2D4 +3
+Type de dégâts : contondant
 Poids : 8
 Facteur de vitesse : 1
-Type de comp閠ence : masse
+Type de compétence : masse
 
 Utilisable par :
- Clerc (monoclass? biclass?ou multiclass?~
+ Clerc (monoclassé, biclassé ou multiclassé)~
 
-@6 = ~Ceinturon de neutralit?active~
-@7 = ~Nanstein a transform?l'閜閑 l'Egaliseur en ceinturon, paradoxalement la seule chose qu'il a perdu est sa valeur marchande.
+@6 = ~Ceinturon de neutralité active~
+@7 = ~Nanstein a transformé l'épée l'Egaliseur en ceinturon, paradoxalement la seule chose qu'il a perdu est sa valeur marchande.
 
 PARAMETRES :
 
-Contre les chaotiques neutres et les loyaux neutres : +1 ?l'attaque et +1 aux d間鈚s
-Contre les neutres bons et les neutres mauvais : +2 ?l'attaque et +2 aux d間鈚s
-Contre les autres alignements, except閟 les neutres stricts : +3 ?l'attaque et +6 aux d間鈚s
-Immunit?contre la domination et la confusion
+Contre les chaotiques neutres et les loyaux neutres : +1 à l'attaque et +1 aux dégâts
+Contre les neutres bons et les neutres mauvais : +2 à l'attaque et +2 aux dégâts
+Contre les autres alignements, exceptés les neutres stricts : +3 à l'attaque et +6 aux dégâts
+Immunité contre la domination et la confusion
 
 Utilisable par : 
  Tous~
 
-@8 = ~Robe d'閏ailles de dragon rouge~
-@9   = ~Gr鈉e ?ses aptitudes magiques, Nanstein a transform?votre armure d'閏ailles de dragon rouge en robe de mage, les 閏ailles entrem阬閑s conf鑢ent une importante classe d'armure mais sont tr鑣 l間鑢es, et dans le m阭e temps immunisent contre le feu.
+@8 = ~Robe d'écailles de dragon rouge~
+@9   = ~Grâce à ses aptitudes magiques, Nanstein a transformé votre armure d'écailles de dragon rouge en robe de mage, les écailles entremêlées confèrent une importante classe d'armure mais sont très légères, et dans le même temps immunisent contre le feu.
 
 PARAMETRES :
 
 Classe d'armure : 0
-100% de r閟istance au feu
+100% de résistance au feu
 
 Utilisable par :
- Mage (monoclass? biclass?ou multiclass?~
+ Mage (monoclassé, biclassé ou multiclassé)~
 
-@10   = ~Carquois de fl鑓hes 閘閙entaires~
-@11   = ~Nanstein est enthousiaste, et ?raison, car il a fait du bon travail avec le Fl閍u de l'Eternit? En tant que puissant manipulateur des 閘閙ents, il a pu le transformer en un carquois qui produit des fl鑓hes 閘閙entaires aussi puissantes (et m阭e sous certains aspects un peu plus) que le Fl閍u de l'Eternit?
+@10   = ~Carquois de flèches élémentaires~
+@11   = ~Nanstein est enthousiaste, et à raison, car il a fait du bon travail avec le Fléau de l'Eternité. En tant que puissant manipulateur des éléments, il a pu le transformer en un carquois qui produit des flèches élémentaires aussi puissantes (et même sous certains aspects un peu plus) que le Fléau de l'Eternité.
 
 PARAMETRES :
 
-Fl鑓hes 閘閙entaires illimit閑s (d間鈚s : 1d6 +1 de feu, +1 d'acide, +1 de froid, elles sont consid閞閑s comme des armes +5)
+Flèches élémentaires illimitées (dégâts : 1d6 +1 de feu, +1 d'acide, +1 de froid, elles sont considérées comme des armes +5)
 
 Utilisable par :
  Tous~
 
 @12   = ~Cape de Vecna~
-@13   = ~A votre demande Nanstein a transform?en quelques coups de ciseaux et avec quelques tours de magie connus de lui seul la Robe de Vecna en une cape utile ?tous.
+@13   = ~A votre demande Nanstein a transformé en quelques coups de ciseaux et avec quelques tours de magie connus de lui seul la Robe de Vecna en une cape utile à tous.
 
 PARAMETRES :
 
-Capacit閟 d'閝uipement :
-Temps d'incantation r閐uit de 3
-+10 % de r閟istance magique
+Capacités d'équipement :
+Temps d'incantation réduit de 3
++10 % de résistance magique
 Poids : 3
 
 Utilisable par :
  Tous~
 
 @14  = ~Hache de la Vague~
-@15  = ~莂 semblait facile, mais qui d'autre que Nanstein aurait pu mieux le faire ? La hallebarde Vague est devenue une hache, sans rien perdre de son pouvoir.
+@15  = ~Ça semblait facile, mais qui d'autre que Nanstein aurait pu mieux le faire ? La hallebarde Vague est devenue une hache, sans rien perdre de son pouvoir.
 
-PARAM萒RES :
+PARAMÈTRES :
 
-Capacit閟 de combat : 15 % de chances de drainer l'eau du corps de la cible (15 points de d間鈚s)
-                      Tue en un coup les 蒷閙entaires de feu, les 蒮rit et les Salamandres (pas de Jet de sauvegarde)
+Capacités de combat : 15 % de chances de drainer l'eau du corps de la cible (15 points de dégâts)
+                      Tue en un coup les Élémentaires de feu, les Éfrit et les Salamandres (pas de Jet de sauvegarde)
 TAC0 : +4
-D間鈚s : 1D8+4
-Type de d間鈚s : Tranchant
+Dégâts : 1D8+4
+Type de dégâts : Tranchant
 Poids : 4
 Facteur de vitesse : 3
-Type de comp閠ence : Hache
-Type : Arme ?1 main
-Force n閏essaire : 10
+Type de compétence : Hache
+Type : Arme à 1 main
+Force nécessaire : 10
 
 Poids : 4
 Inutilisable par :
@@ -121,138 +121,138 @@ Inutilisable par :
  Mages
  Voleurs~
 
-@16  = ~Arbal鑤e fulgurante : Courroux c閘este~
-@17  = ~Nanstein ?utilis?de tr鑣 vieilles recettes pour transformer le katana Furie c閘este en une fantastique arbal鑤e qui a conserv?presque toute la puissance de l'arme originale. L'閚ergie qui permettait ?l'閜閑 de lancer des sorts est maintenant consacr閑 ?la g閚閞ation de carreaux enchant閟.
+@16  = ~Arbalète fulgurante : Courroux céleste~
+@17  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L'énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
 
 PARAMETRES
 
-Capacit閟 sp閏iale
-Tire automatiquement des carreaux 閘ectrique +1
-1 attaque suppl閙entaire par round
+Capacités spéciale
+Tire automatiquement des carreaux électrique +1
+1 attaque supplémentaire par round
 
-Capacit閟 de combat : 
-Tonnerre chaque fois que la cible est touch閑 (閠ourdissement, jet de sauvegarde contre les sorts)
-Choc 閘ectrique quand la cible est touch閑 (5 % de chances, 20 points de d間鈚s)
+Capacités de combat : 
+Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
+Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
 
-TAC0 : +4 (+3 de l'arbal鑤e, +1 des carreaux)
-D間鈚s : 1D8+1, +1 閘ectrique
+TAC0 : +4 (+3 de l'arbalète, +1 des carreaux)
+Dégâts : 1D8+1, +1 électrique
 Poids : 4
 Facteur de Vitesse : 2
-Comp閠ence : Arbal鑤e
-Type d'arme : ?2 mains
-Force n閏essaire : 8
+Compétence : Arbalète
+Type d'arme : à 2 mains
+Force nécessaire : 8
 Inutilisable par :
  Druides
  Clercs
  Mages~
 
-@18  = ~Nanstein ?utilis?de tr鑣 vieilles recettes pour transformer le katana Furie c閘este en une fantastique arbal鑤e qui a conserv?presque toute la puissance de l'arme originale. L'閚ergie qui permettait ?l'閜閑 de lancer des sorts est maintenant consacr閑 ?la g閚閞ation de carreaux enchant閟.
+@18  = ~Nanstein à utilisé de très vieilles recettes pour transformer le katana Furie céleste en une fantastique arbalète qui a conservé presque toute la puissance de l'arme originale. L'énergie qui permettait à l'épée de lancer des sorts est maintenant consacrée à la génération de carreaux enchantés.
 
 PARAMETRES
 
-Capacit閟 sp閏iale
-Tire automatiquement des carreaux 閘ectrique +3
-1 attaque suppl閙entaire par round
+Capacités spéciale
+Tire automatiquement des carreaux électrique +3
+1 attaque supplémentaire par round
 
-Capacit閟 de combat : 
-Tonnerre chaque fois que la cible est touch閑 (閠ourdissement, jet de sauvegarde contre les sorts)
-Choc 閘ectrique quand la cible est touch閑 (5 % de chances, 20 points de d間鈚s)
+Capacités de combat : 
+Tonnerre chaque fois que la cible est touchée (étourdissement, jet de sauvegarde contre les sorts)
+Choc électrique quand la cible est touchée (5 % de chances, 20 points de dégâts)
 
-TAC0 : +6 (+3 de l'arbal鑤e, +3 des carreaux)
-D間鈚s : 1D8+3, +1 閘ectrique
+TAC0 : +6 (+3 de l'arbalète, +3 des carreaux)
+Dégâts : 1D8+3, +1 électrique
 Poids : 4
 Facteur de Vitesse : 1
-Comp閠ence : Arbal鑤e
-Type d'arme : ?2 mains
-Force n閏essaire : 8
+Compétence : Arbalète
+Type d'arme : à 2 mains
+Force nécessaire : 8
 Inutilisable par :
  Druide
  Clerc
  Mage~
 
 @19  = ~Dague d'argent~
-@20  = ~La puissante et mal閒ique 蓀閑 d'argent est devenue entre les mains expertes de Nanstein une dague boomerang presque aussi dangereuse.
+@20  = ~La puissante et maléfique Épée d'argent est devenue entre les mains expertes de Nanstein une dague boomerang presque aussi dangereuse.
 
-Capacit閟 de combat :
-si elle est lanc閑, la dague revient ?son lanceur
-15% de chance de tuer la cible, jet de sauvegarde contre la mort ?-2
+Capacités de combat :
+si elle est lancée, la dague revient à son lanceur
+15% de chance de tuer la cible, jet de sauvegarde contre la mort à -2
 
 TAC0 : +3
-D間鈚s : 1D8 +3
-Type de d間鈚 : projectile (perforant)
+Dégâts : 1D8 +3
+Type de dégât : projectile (perforant)
 Poids : 1
 Facteur de vitesse : 1
-Type de comp閠ence : dague
-Type : arme ?1 main
-Force n閏essaire : 3
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3
 Inutilisable par :
  Clerc~
 
 @21  = ~Gants de chair humaine~
-@22  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine retouch閑 par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
+@22  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
 
 PARAMETRES
 
-Capacit?d'閝uipement :
+Capacité d'équipement :
 Classe d'Armure : 6
 Jets de sauvegarde : +3
-R閟istance ?la magie : +15 %
+Résistance à la magie : +15 %
 
 Inutilisable par :
  Personnage bon~
 
-@23  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine am閘ior閑 retouch閑 par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
+@23  = ~Ces gants sont tout ce qu'il reste de l'armure de chair humaine améliorée retouchée par Nanstein. La chair humaine a perdu un peu de son pouvoir dans la transformation, mais est maintenant utilisable par plus de monde.
 
 PARAMETRES
 
-Capacit?d'閝uipement :
+Capacité d'équipement :
 Classe d'Armure : 3
 Jets de sauvegarde : +3
-R閟istance ?la magie : +15 %
+Résistance à la magie : +15 %
 Constitution : bonus de 1
-Dext閞it?: bonus de 1
-Immunit?au Poison
+Dextérité : bonus de 1
+Immunité au Poison
 Protection contre le Bien
 
 Inutilisable par :
  Personnage bon~
 
 @24  = ~Targe du Baldurien~
-@25  = ~Nanstein a transform?l'imposant bouclier du Baldurien en une targe si l間鑢e que m阭e les mages peuvent s'en servir. Le bouclier y a perdu son effet n閒aste et un peu de puissance, mais il a gard?son principal int閞阾 : les spectateur n'ont qu'?bien se tenir !
+@25  = ~Nanstein a transformé l'imposant bouclier du Baldurien en une targe si légère que même les mages peuvent s'en servir. Le bouclier y a perdu son effet néfaste et un peu de puissance, mais il a gardé son principal intérêt : les spectateur n'ont qu'à bien se tenir !
 
 PARAMETRES :
 
-Capacit閟 d'閝uipement :
+Capacités d'équipement :
 Renvoi des rayons de spectateur
 
 Bonus de Classe d'Armure : 3
-Sp閏ial : ne prot鑗e pas contre les attaques de type Missiles ou Perforantes.
+Spécial : ne protège pas contre les attaques de type Missiles ou Perforantes.
 Poids : 1~
 
 @26  = ~Protectrice d'Havredest~
-@27  = ~Entre les mains expertes de Nanstein, le Protecteur d'Havredest est devenu un pendentif. Son poids est devenu minime mais son pouvoir d閒ensif est rest?le m阭e.
+@27  = ~Entre les mains expertes de Nanstein, le Protecteur d'Havredest est devenu un pendentif. Son poids est devenu minime mais son pouvoir défensif est resté le même.
 
 PARAMETRES :
 
 +1 CA
-+20 % r閟istance aux d間鈚s physiques~
++20 % résistance aux dégâts physiques~
 
 @28  = ~Katana violet~
-@29  = ~Le ninja-To de la Confr閞ie 蒫arlate ?gagn?en poids et en puissance depuis que Nanstein l'ing閚ieur en ?fait un katana. De fait, son ego n'est plus autant s閘ectif.
+@29  = ~Le ninja-To de la Confrérie Écarlate à gagné en poids et en puissance depuis que Nanstein l'ingénieur en à fait un katana. De fait, son ego n'est plus autant sélectif.
 
-Capacit?d'閝uipement : une attaque suppl閙entaire par round
-Combat : 6 PV de d間鈚s du poison par round pendant 2 rounds, si la cible rate son JS contre le poison
+Capacité d'équipement : une attaque supplémentaire par round
+Combat : 6 PV de dégâts du poison par round pendant 2 rounds, si la cible rate son JS contre le poison
 
 PARAMETRES :
 
 TAC0 : +3
-D間鈚s : 1D10+3
-Type de d間鈚s : tranchant
+Dégâts : 1D10+3
+Type de dégâts : tranchant
 Poids : 4
 Facteur de vitesse : 1
-Type de comp閠ence : Katana
-Type : arme ?1 main
-Force n閏essaire : 6
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
 
 Utilisable par :
  Guerriers
@@ -260,24 +260,24 @@ Utilisable par :
  Moines~
 
 @30  = ~Dague de Karash~
-@31  = ~Nanstein s'est encore une fois surpass?: non seulement il a transform?le Katana Zerth de Dak'kon en une lame plus utile ?un mage, mais en plus il a r関eill?le pouvoir du karash.
+@31  = ~Nanstein s'est encore une fois surpassé : non seulement il a transformé le Katana Zerth de Dak'kon en une lame plus utile à un mage, mais en plus il a réveillé le pouvoir du karash.
  
 PARAMETRES :
 
-Capacit閟 d'閝uipement :
+Capacités d'équipement :
 Double les sorts de niveau 1
-m閙orisation d'un sort suppl閙entaire des niveaux 2, 3 et 4
-Bonus ?la CA +2
+mémorisation d'un sort supplémentaire des niveaux 2, 3 et 4
+Bonus à la CA +2
 Jet de sauvegarde contre les sorts +3
-R閟istance ?a magie : +10%
+Résistance à a magie : +10%
 
-D間鈚s : 1D6 + 2
+Dégâts : 1D6 + 2
 TAC0 : +2
 Poids : 1
 Facteur de vitesse : 0
-Type de comp閠ence : Dague
-Type: arme ?1 main
-Force n閏essaire : 3
+Type de compétence : Dague
+Type: arme à 1 main
+Force nécessaire : 3
 Non utilisable par :
 Clerc~
  
