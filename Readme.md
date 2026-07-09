@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/static/v1?label=language&message=castellano%20%7C%20english%20%7C%20french%20%7C%20&color=informational)
 
-**Autor** : **Mhoram**
+**Author** : **Mhoram**
 
 [Link to original Mod Download](http://www.shsforums.net/files/file/770-nanstein-v13/)
 
@@ -58,3 +58,10 @@ V2.2:
 
 - Completed english translation by Deratiseur 
 - Completed castellano translation by AlaisFcZ
+- [New componant Nanstein in ToB](https://github.com/The-Gate-Project/Nanstein/blob/b86480bed3645f98da5163542fd5cf8c73581a79/nanstein/Readme_english.txt#L307) 
+
+V2.2:
+
+- Simplified Chinese translation by @eva2000as
+- Native UTF8 for translations
+
